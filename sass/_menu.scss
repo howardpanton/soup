@@ -1,0 +1,19 @@
+  .links {
+      @include gs-media (d) {
+      @include padding-leader(8);
+      @include gs-span(d,all);
+
+      li {
+        width:33%;
+        float:left;
+        display:inline;
+        text-align:center;
+
+        a {
+          font-weight:700;
+          font-size:18px;
+          line-height:30px;
+        }
+      }
+    }
+  }

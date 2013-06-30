@@ -12,8 +12,8 @@ body {
   }
 }
 
-@include font-face("entypo", font-files("fonts/entypo/entypo.ttf", "examples/entypo.otf" , "examples/entypo.eot" , "examples/entypo.woff"));
-@include font-face("entypo-social", font-files("fonts/entypo-social/entypo.ttf", "examples/entypo-social.otf" , "examples/entypo-social.eot" , "examples/entypo-social.woff"));
+@include font-face("entypo", font-files("fonts/entypo/entypo.ttf", "fonts/entypo/entypo.otf" , "fonts/entypo/entypo.eot" , "fonts/entypo/entypo.woff"));
+@include font-face("entypo-social", font-files("fonts/entypo-social/entypo-social.ttf", "fonts/entypo-social/entypo-social.svg" , "fonts/entypo-social/entypo-social.eot" , "fonts/entypo-social/entypo-social.woff"));
  
 .example {
   font-family: "Blooming Grove";
@@ -111,4 +111,8 @@ p.leader {
 
 .icon {
   font-family: "entypo";
+}
+
+.icon-social {
+  font-family: "entypo-social";
 }

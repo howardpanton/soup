@@ -1,0 +1,27 @@
+.row {
+  @include gs-span(d, all);
+}
+
+  .wrapper {
+      margin: 0 auto;
+      width: 90%;
+      float: none;
+      max-width: 1400px;
+      background:black;
+      overflow:hidden;
+    }
+
+img {
+  max-width: 100%;
+  height: auto;
+  width:100%;
+  max-height:960px;
+} 
+.content-wrapper {
+//margin-top: -150px;
+}
+
+.content-video, .latest-tweet {
+  position:relative;
+  @include gs-span(d,all);
+}

@@ -1,0 +1,46 @@
+header.banner {
+
+  // @include gs-media (m) {
+  //   @include padding-leader(3);
+  //   @include gs-span(m, all);
+  //   @include padding-trailer(3);
+  // }
+
+  @include gs-media (t, min-max) {
+    @include padding-leader(6);
+    @include gs-span(t, all);
+    @include padding-trailer(6);
+  }
+
+  @include gs-media (d) {
+    @include padding-leader(8);
+    @include gs-span(d,all);
+    h1 {
+      @include gs-span(d,3, 10);
+    }
+    p.intro {
+      @include gs-media (m) {
+        font-size: 24px;
+        line-height:36px;
+        @include gs-span(d,1, 4);
+        @include padding-leader(4);
+        @include padding-trailer(4);
+      }
+      @include gs-media (d) {
+        font-size: 36px;
+        line-height:48px;
+        @include gs-span(d,3, 10);
+        @include padding-leader(8);
+        }
+    }
+  }
+}
+
+.header {
+    position: relative;
+    background: url(../images/menu-back.png)  no-repeat;
+    display: block;
+    float: left;
+    height: 155px;
+    z-index: 9;
+}

@@ -1,0 +1,28 @@
+.latest-tweet {
+      .twitter, .date, .tweet {
+        @include gs-media (d) {
+        @include gs-span(d,3, 10);
+        clear:left;
+        text-align:center;
+        }
+      }
+
+  .twitter {
+    color:white;
+    font-size: 8em;
+    padding-top: 0.6em;
+  }
+
+  .date {
+    padding-top:2em;
+    font-size:36px;
+    line-height:2;
+
+  }
+
+  .tweet {
+    padding-top:2em;
+    font-size:36px;
+    line-height:2;
+  }
+}

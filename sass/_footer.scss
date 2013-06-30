@@ -1,0 +1,9 @@
+footer.footer {
+  background:white;
+  @include margin-leader(2);
+
+  a {
+    color: black;
+    font-size:24px;
+  }
+}

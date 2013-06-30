@@ -268,31 +268,71 @@ img {
   width: 100%;
   max-height: 960px; }
 
-.content-video, .latest-tweet {
+.video {
   position: relative;
-  clear: both;
-  display: block;
-  float: left;
-  margin-left: 0;
-  width: 100%; }
+  width: 100%;
+  overflow: visible; }
 
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  header.banner {
+    padding-top: 2.25em;
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    padding-bottom: 2.25em; } }
 @media only screen and (min-width: 960px) {
-  .links {
+  header.banner {
     padding-top: 3em;
     clear: both;
     display: block;
     float: left;
     margin-left: 0;
     width: 100%; }
-    .links li {
-      width: 33%;
+    header.banner h1 {
+      display: block;
       float: left;
-      display: inline;
-      text-align: center; }
-      .links li a {
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 30px; } }
+      margin-left: 17.08333%;
+      margin-right: -100%;
+      width: 65.83333%; } }
+  @media only screen and (min-width: 960px) and (max-width: 767px) {
+    header.banner p.intro {
+      font-size: 24px;
+      line-height: 36px;
+      display: block;
+      float: left;
+      margin-left: 0%;
+      margin-right: -100%;
+      width: 31.66667%;
+      padding-top: 1.5em;
+      padding-bottom: 1.5em; } }
+  @media only screen and (min-width: 960px) and (min-width: 960px) {
+    header.banner p.intro {
+      font-size: 36px;
+      line-height: 48px;
+      display: block;
+      float: left;
+      margin-left: 17.08333%;
+      margin-right: -100%;
+      width: 65.83333%;
+      padding-top: 3em; } }
+
+.header {
+  position: relative;
+  background: url(../images/menu-back.png) no-repeat;
+  display: block;
+  float: left;
+  height: 155px;
+  z-index: 9; }
+
+.content-video {
+  position: relative;
+  clear: both;
+  display: block;
+  float: left;
+  margin-left: 0;
+  width: 100%; }
 
 .circle {
   border-radius: 50%;
@@ -360,46 +400,30 @@ img {
       line-height: 6px;
       padding: 0;
       padding-top: 12px; } }
-.video {
-  position: relative;
-  width: 100%;
-  overflow: visible; }
-
-.video-info {
+footer.footer {
   background: white;
-  clear: both;
-  display: block;
-  float: left;
-  margin-left: 0;
-  width: 100%;
-  color: black; }
+  margin-top: 0.75em; }
+  footer.footer a {
+    color: black;
+    font-size: 24px; }
 
 @media only screen and (min-width: 960px) {
-  .video-text {
+  .links {
+    padding-top: 3em;
+    clear: both;
     display: block;
     float: left;
-    margin-left: 17.08333%;
-    margin-right: -100%;
-    width: 65.83333%; } }
-
-@media only screen and (min-width: 960px) {
-  .video-title, .video-details, .directors-profile {
-    font-size: 36px;
-    line-height: 48px;
-    padding-top: 3em;
-    clear: left;
-    text-align: center; } }
-
-@media only screen and (min-width: 960px) {
-  .video-social {
-    font-size: 5em;
-    display: block;
-    float: left;
-    margin-left: 85.41667%;
-    margin-right: -100%;
-    width: 14.58333%;
-    padding-top: 3em;
-    text-align: center; } }
+    margin-left: 0;
+    width: 100%; }
+    .links li {
+      width: 33%;
+      float: left;
+      display: inline;
+      text-align: center; }
+      .links li a {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px; } }
 
 /* sexy */
 /* simple */
@@ -425,16 +449,6 @@ img {
   transition: 0.6s;
   transform-style: preserve-3d;
   position: relative; }
-  .flipper .close {
-    display: block;
-    background: black;
-    border-radius: 10px;
-    font-size: 3em;
-    position: absolute;
-    height: 60px;
-    top: 5%;
-    right: 15%;
-    padding: 12px; }
 
 .front, .back {
   -webkit-backface-visibility: hidden;
@@ -500,85 +514,3 @@ img {
 
 .is-hidden {
   display: none; }
-
-@media only screen and (min-width: 960px) {
-  .latest-tweet .twitter, .latest-tweet .date, .latest-tweet .tweet {
-    display: block;
-    float: left;
-    margin-left: 17.08333%;
-    margin-right: -100%;
-    width: 65.83333%;
-    clear: left;
-    text-align: center; } }
-.latest-tweet .twitter {
-  color: white;
-  font-size: 8em;
-  padding-top: 0.6em; }
-.latest-tweet .date {
-  padding-top: 2em;
-  font-size: 36px;
-  line-height: 2; }
-.latest-tweet .tweet {
-  padding-top: 2em;
-  font-size: 36px;
-  line-height: 2; }
-
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-  header.banner {
-    padding-top: 2.25em;
-    clear: both;
-    display: block;
-    float: left;
-    margin-left: 0;
-    width: 100%;
-    padding-bottom: 2.25em; } }
-@media only screen and (min-width: 960px) {
-  header.banner {
-    padding-top: 3em;
-    clear: both;
-    display: block;
-    float: left;
-    margin-left: 0;
-    width: 100%; }
-    header.banner h1 {
-      display: block;
-      float: left;
-      margin-left: 17.08333%;
-      margin-right: -100%;
-      width: 65.83333%; } }
-  @media only screen and (min-width: 960px) and (max-width: 767px) {
-    header.banner p.intro {
-      font-size: 24px;
-      line-height: 36px;
-      display: block;
-      float: left;
-      margin-left: 0%;
-      margin-right: -100%;
-      width: 31.66667%;
-      padding-top: 1.5em;
-      padding-bottom: 1.5em; } }
-  @media only screen and (min-width: 960px) and (min-width: 960px) {
-    header.banner p.intro {
-      font-size: 36px;
-      line-height: 48px;
-      display: block;
-      float: left;
-      margin-left: 17.08333%;
-      margin-right: -100%;
-      width: 65.83333%;
-      padding-top: 3em; } }
-
-.header {
-  position: relative;
-  background: url(../images/menu-back.png) no-repeat;
-  display: block;
-  float: left;
-  height: 155px;
-  z-index: 9; }
-
-footer.footer {
-  background: white;
-  margin-top: 0.75em; }
-  footer.footer a {
-    color: black;
-    font-size: 24px; }
