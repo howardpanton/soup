@@ -1,0 +1,5 @@
+    @mixin circle($radi) {
+      border-radius: 50%;
+      width: $radi;
+      height: $radi; 
+    }
