@@ -13,27 +13,42 @@
 <link rel='stylesheet' href='css/screen.css'>
 <link rel='stylesheet' href='sass/screen.css'>
 <link rel='stylesheet' href='sass/.sass-cache/8655539cd47c55cee0bc00033b961937ea2bd44c/screen.scssc'>
+<link rel='stylesheet' href='css/bigvideo.css'>
+<link rel='stylesheet' href='sass/bigvideo.css'>
+<link rel='stylesheet' href='sass/.sass-cache/8655539cd47c55cee0bc00033b961937ea2bd44c/bigvideo.scssc'>
+<script src='js/modernizr-2.5.3.min.js'></script>
 </head>
 <body>
-	<div class="wrapper">
-		<header class="banner">
+	<div class="menu-collapsed is-hidden">
+  <div class="wrapper">
+    <h1 class="centered"><a href="#">SOUP FACTORY</a></h1>
+      <nav class="circle centered"> 
+  </nav>
+  </div>
+</div>
+<header class="banner">
+  <div class="wrapper">
   <h1 class="centered"><a href="#">SOUP FACTORY</a></h1>
   <p class="intro centered">We create commercials, music videos and fashion films with a bunch of precocious, ingenious directors and producers. We have a lot of fun doing so.</p>
         <nav class="links">
       <ul>
         <li><A href="#">THE FACTORY</A></li>
-        <li><A href="#">DIRECTORS &AMP; PRODUCERS</A></li>
+        <li><A href="#">DIRECTORS</A></li>
         <li><A href="#">CONTACT</A></li>
       </ul>
     </nav>
-</header>
-<div class="row header">
   <nav class="circle centered"> 
-  <p class="first">_</p>
-  <p class="second">_</p>
   </nav>
-</div>
+  </div>
+  </header>
 
+	<div class="latest-activity">
+		<div class="wrapper">
+<div class="latest-text">		<h2>LATEST ACTIVITY</h2>
+			<P>Sed posuere consectetur est at lobortis. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</P></div>
+		</div>
+	</div>
+	<div class="wrapper">
 		<div class="content-wrapper row">
 			<div class="content-video">
 				<img id ="image1" class="still" src="images/image1.jpg" />
@@ -84,21 +99,41 @@
 					</p>
 			</div>
 	</div>
+</div>
 	<footer class="footer row">
-    <nav class="links">
+<div class="wrapper">    
+  <nav class="links">
       <ul>
         <li><A href="#">THE FACTORY</A></li>
-        <li><A href="#">DIRECTORS &AMP; PRODUCERS</A></li>
+        <li><A href="#">DIRECTORS</A></li>
         <li><A href="#">CONTACT</A></li>
       </ul>
     </nav>
+  </div>
 </footer>
-</div>
 	<!-- Gridset overlay script - toggles grid overlay on and off - You can remove this if you want. -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  	<script>window.jQuery || document.write('<script src="js/jquery-1.9.0.min.js"><\/script>')</script>
 		<script src='js/gridset-overlay.js'></script>
+<script src='js/jquery-ui-1.8.22.custom.min.js'></script>
+<script src='js/jquery.imagesloaded.min.js'></script>
 <script src='js/jquery.fitvids.js'></script>
+<script src='js/bigvideo.js'></script>
 <script src='js/script.js'></script>
+    <script src="http://vjs.zencdn.net/4.0/video.js"></script>
+
+    <!-- Demo -->
+    <script>
+	    $(function() {
+      var BV = new $.BigVideo();
+			BV.init();
+			if (Modernizr.touch) {
+    		BV.show('/images/video-poster.jpg');
+			} else {
+		    BV.show('http://video-js.zencoder.com/oceans-clip.mp4',{doLoop:true, ambient:true});
+			}
+			});
+    </script>
 </body>
 </html>
 	

@@ -4,7 +4,7 @@
    color:black;
 }
 
-.video-text {
+.video-text, .latest-text {
       @include gs-media (d) {
         @include gs-span(d,3, 10);
         }

@@ -7,7 +7,6 @@
       width: 90%;
       float: none;
       max-width: 1400px;
-      background:black;
       overflow:hidden;
     }
 
@@ -19,6 +18,10 @@ img {
 } 
 .content-wrapper {
 //margin-top: -150px;
+}
+
+.latest-activity {
+  background:white;
 }
 
 .content-video, .latest-tweet {

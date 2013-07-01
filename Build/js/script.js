@@ -7,6 +7,10 @@
    $(".responsive-vid").fitVids();
   });
 
+$("nav.circle").click(function () {
+  $(this).parents('.banner').slideUp();
+  $('.menu-collapsed').removeClass('is-hidden');
+});
 
 $("p.credit").click(function () {
   $(this).parents('.flip-container').addClass('flip');

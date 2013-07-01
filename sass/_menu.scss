@@ -1,7 +1,37 @@
   .links {
+
+    @include gs-media (t, min-max) {
+        padding-top: $base-line-height * 9;
+        padding-bottom: $base-line-height * 12;
+      @include gs-span(t,2, 7);
+
+      .banner & {
+        position:relative;
+        z-index:9;
+      }
+
+      li {
+        width:33%;
+        float:left;
+        display:inline;
+        text-align:center;
+
+        a {
+          font-weight:700;
+          font-size:18px;
+          line-height:30px;
+        }
+      }
+    }
       @include gs-media (d) {
-      @include padding-leader(8);
+        padding-top: $base-line-height * 9;
+        padding-bottom: $base-line-height * 48;
       @include gs-span(d,all);
+
+      .banner & {
+        position:relative;
+        z-index:9;
+      }
 
       li {
         width:33%;

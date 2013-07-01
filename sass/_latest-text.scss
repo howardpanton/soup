@@ -1,0 +1,18 @@
+.latest-text {
+      color: black;
+   h2 {
+    font-size: 90px;
+    line-height:90px;
+    text-align: center;
+    padding-top: $base-line-height * 16;
+    padding-bottom: $base-line-height * 6;
+
+  }
+  p {
+    font-size: 24px;
+    line-height:36px;
+    text-align: center;
+    padding-top: $base-line-height * 6;
+    padding-bottom: $base-line-height * 16;
+  }
+}

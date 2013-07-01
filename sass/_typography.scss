@@ -4,9 +4,10 @@
 body {
   font-family: 'Cabin', sans-serif;
   font-weight: 400;
-  background:#ccc;
+  background:black;
   color:white;
   font-size: emCalc(16px);
+  min-width:320px;
   @media screen and (min-width: 75em) {
     font-size: emCalc(18px) ; // 18  
   }

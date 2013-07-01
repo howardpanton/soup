@@ -5,24 +5,35 @@
         clear:left;
         text-align:center;
         }
+              @include gs-media (t, min-max) {
+        @include gs-span(t,2, 7);
+        clear:left;
+        text-align:center;
+        }
       }
 
+
   .twitter {
-    color:white;
-    font-size: 8em;
-    padding-top: 0.6em;
+color: white;
+font-size: 6em;
+padding-top: 72px;
+padding-bottom: 24px;
+line-height: 48px;
   }
 
   .date {
-    padding-top:2em;
-    font-size:36px;
-    line-height:2;
+font-size: 24px;
+line-height: 36px;
+padding-top: 24px;
+padding-bottom: 18px
 
   }
 
   .tweet {
     padding-top:2em;
-    font-size:36px;
-    line-height:2;
+    font-size:18px;
+    line-height:30px;
+padding-top: 18px;
+padding-bottom: 72px;
   }
 }

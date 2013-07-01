@@ -1,10 +1,11 @@
 header.banner {
+  position:relative;
 
-  // @include gs-media (m) {
-  //   @include padding-leader(3);
-  //   @include gs-span(m, all);
-  //   @include padding-trailer(3);
-  // }
+  @include gs-media (m) {
+    @include padding-leader(3);
+    @include gs-span(m, all);
+    @include padding-trailer(3);
+  }
 
   @include gs-media (t, min-max) {
     @include padding-leader(6);
@@ -12,12 +13,43 @@ header.banner {
     @include padding-trailer(6);
   }
 
-  @include gs-media (d) {
-    @include padding-leader(8);
-    @include gs-span(d,all);
-    h1 {
-      @include gs-span(d,3, 10);
+    @include gs-media (d) {
+      @include padding-leader(8);
+      @include gs-span(d,all);
+        &.is-hidden {
+          display:none;
+        }
     }
+    h1 {
+      @include gs-media (m) {
+        @include gs-span(m,all);
+        z-index: 9;
+        position: relative;
+        font-size:54px;
+        line-height:60px;
+        padding-top: $base-line-height * 4;
+        padding-bottom: $base-line-height * 4;
+        }
+      @include gs-media (t, min-max) {
+        @include gs-span(t,2, 7);
+        z-index: 9;
+        position: relative;
+        font-size:54px;
+        line-height:60px;
+        padding-top: $base-line-height * 24;
+        padding-bottom: $base-line-height * 9;
+        }
+
+      @include gs-media (d) {
+        @include gs-span(d,3, 10);
+        z-index: 9;
+        position: relative;
+        font-size:54px;
+        line-height:60px;
+        padding-top: $base-line-height * 24;
+        padding-bottom: $base-line-height * 9;
+        }
+      }
     p.intro {
       @include gs-media (m) {
         font-size: 24px;
@@ -26,13 +58,36 @@ header.banner {
         @include padding-leader(4);
         @include padding-trailer(4);
       }
+
+      @include gs-media (t, min-max) {
+        z-index: 9;
+        position: relative;
+        font-size: 24px;
+        line-height:36px;
+        @include gs-span(t,2, 7);
+        padding-top: $base-line-height * 9;
+        padding-bottom: $base-line-height * 9;
+        clear:left;
+      }
       @include gs-media (d) {
-        font-size: 36px;
-        line-height:48px;
+        z-index: 9;
+        position: relative;
+        font-size: 24px;
+        line-height:36px;
         @include gs-span(d,3, 10);
-        @include padding-leader(8);
+        padding-top: $base-line-height * 9;
+        padding-bottom: $base-line-height * 9;
+        clear:left;
         }
     }
+}
+
+.menu-collapsed {
+  position:relative;
+  h1 {
+    padding-top: $base-line-height * 16;
+    padding-bottom: $base-line-height * 16;
+
   }
 }
 
