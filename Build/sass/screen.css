@@ -233,7 +233,7 @@ img {
     height: 72px;
     width: 72px;
     z-index: 9;
-    box-shadow: 0px 4px 4px #999; } }
+    box-shadow: 0px 4px 4px #cccccc; } }
 @media only screen and (min-width: 960px) {
   .circle {
     border-radius: 50%;
@@ -274,7 +274,7 @@ img {
   color: black; }
 
 @media only screen and (min-width: 960px) {
-  .video-text, .latest-text {
+  .video-text, .latest-text, .holding-text {
     display: block;
     float: left;
     margin-left: 17.08333%;
@@ -282,10 +282,29 @@ img {
     width: 65.83333%; } }
 
 @media only screen and (min-width: 960px) {
-  .video-title, .video-details, .directors-profile {
-    font-size: 36px;
-    line-height: 48px;
-    padding-top: 3em;
+  .video-title {
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 42px;
+    padding-bottom: 18px;
+    clear: left;
+    text-align: center; } }
+
+@media only screen and (min-width: 960px) {
+  .video-details {
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    clear: left;
+    text-align: center; } }
+
+@media only screen and (min-width: 960px) {
+  .directors-profile {
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 18px;
+    padding-bottom: 36px;
     clear: left;
     text-align: center; } }
 

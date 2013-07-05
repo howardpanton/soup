@@ -7,9 +7,28 @@
    $(".responsive-vid").fitVids();
   });
 
+  $(function() {
+      var BV = new $.BigVideo();
+      BV.init();
+      if (Modernizr.touch) {
+        BV.show('/images/video-poster.jpg');
+      } else {
+        BV.show('/images/movies/COLSHOWREEL.mp4',{doLoop:true, ambient:true});
+      }
+      });
+
+
+
 $("nav.circle").click(function () {
-  $(this).parents('.banner').slideUp();
-  $('.menu-collapsed').removeClass('is-hidden');
+
+   $('.menu-collapsed').show();
+  $('.banner').hide();
+});
+
+$("nav.circle-collapsed").click(function () {
+  $('.menu-collapsed').hide();
+  $('.banner').show();
+
 });
 
 $("p.credit").click(function () {

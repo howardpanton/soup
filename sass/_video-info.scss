@@ -4,23 +4,46 @@
    color:black;
 }
 
-.video-text, .latest-text {
+.video-text, .latest-text, .holding-text {
       @include gs-media (d) {
         @include gs-span(d,3, 10);
         }
 }
 
 
-.video-title, .video-details, .directors-profile {
+.video-title {
   
       @include gs-media (d) {
-        font-size: 36px;
-        line-height:48px;
-        @include padding-leader(8);
+        font-size: 24px;
+        line-height:36px;
+        padding-top:42px;
+        padding-bottom:18px;
         clear:left;
         text-align:center;
         }
 
+}
+
+.video-details {
+      @include gs-media (d) {
+        font-size: 18px;
+        line-height:30px;
+        padding-top:18px;
+        padding-bottom:18px;
+        clear:left;
+        text-align:center;
+        }
+}
+
+.directors-profile {
+        @include gs-media (d) {
+        font-size: 24px;
+        line-height:36px;
+        padding-top:18px;
+        padding-bottom:36px;
+        clear:left;
+        text-align:center;
+        }
 }
 .video-social {
         @include gs-media (d) {
