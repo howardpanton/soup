@@ -1,4 +1,0 @@
-soup
-====
-
-Soup Kitchen

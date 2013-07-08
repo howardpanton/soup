@@ -1,5 +1,5 @@
 @import "compass/reset";
-@import "compass/typography/vertical_rhythm";
+@import "compass";
 @import "gridset";
 @import "variables";
 @import "mixins";
@@ -7,14 +7,18 @@
 @import "layout";
 @import "menu";
 @import "circle";
-@import "video";
-@import "video-info";
-@import "flipper";
-@import "twitter";
+@import "accordion-section";
+@import "accordion";
+@import "filtered";
+// @import "video";
+// @import "video-info";
+// @import "flipper";
+// @import "twitter";
 @import "latest-text";
+@import "people";
 @import "banner";
-@import "footer";
-@import "utilities";
+// @import "footer";
+ @import "utilities";                             
 
 
 

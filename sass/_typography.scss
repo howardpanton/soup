@@ -1,34 +1,36 @@
-@import "compass/css3";
 @include establish-baseline(16px);
 
+
+html {
+    overflow-y: scroll;
+}
+
+* {
+    @include box-sizing(border-box);
+}
+
+
 body {
-  font-family: 'Cabin', sans-serif;
-  font-weight: 400;
-  background:black;
-  color:white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   font-size: emCalc(16px);
+  font-weight:300;
+  color:black;
   min-width:320px;
   @media screen and (min-width: 75em) {
     font-size: emCalc(18px) ; // 18  
   }
 }
 
-@include font-face("entypo", font-files("fonts/entypo/entypo.ttf", "fonts/entypo/entypo.otf" , "fonts/entypo/entypo.eot" , "fonts/entypo/entypo.woff"));
-@include font-face("entypo-social", font-files("fonts/entypo-social/entypo-social.ttf", "fonts/entypo-social/entypo-social.svg" , "fonts/entypo-social/entypo-social.eot" , "fonts/entypo-social/entypo-social.woff"));
+@include font-face("entypo", font-files("entypo/entypo.ttf", "fonts/entypo/entypo.otf" , "entypo/entypo.eot" , "entypo/entypo.woff"));
+@include font-face("entypo-social", font-files("entypo-social/entypo-social.ttf", "entypo-social/entypo-social.svg" , "entypo-social/entypo-social.eot" , "fonts/entypo-social/entypo-social.woff"));
  
-.example {
-  font-family: "Blooming Grove";
-  font-size: 1.5em; }
+
 
 a {
   color: $primary;
   text-decoration: none;
 
   
-  &:hover {
-    color: $aaa-gray;
-  }
-
 }
 
 
@@ -42,6 +44,7 @@ h1 {
     @include adjust-leading-to(10, 54px); 
     // padding: rhythm(7, 54px) 0 rhythm(5, 54px) 0;  
   }
+  
   @include gs-media(d) {
     font-size: emCalc(54px); 
     @include adjust-leading-to(10, 54px);
@@ -92,6 +95,10 @@ h5, h6 {
   }
 }
 
+p {
+  font-size:16px;
+  line-height:24px;
+}
 
 .title {
   font-weight: 500;
@@ -103,12 +110,7 @@ aside {
   }
 }
 
-p.leader {
-  font-size: emCalc(18px);
-  @include gs-media(d) {
-    font-size: emCalc(24px);
-  }
-}
+
 
 .icon {
   font-family: "entypo";

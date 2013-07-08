@@ -1,13 +1,12 @@
 .row {
   @include gs-span(d, all);
+  clear:left;
 }
 
   .wrapper {
       margin: 0 auto;
       width: 90%;
-      float: none;
       max-width: 1400px;
-      overflow:hidden;
     }
 
 img {
@@ -27,4 +26,10 @@ img {
 .content-video, .latest-tweet {
   position:relative;
   @include gs-span(d,all);
+  padding-top: 48px;
+}
+
+.bg-black {
+  background:black;
+  color:white;
 }
