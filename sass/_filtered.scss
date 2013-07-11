@@ -1,3 +1,13 @@
+.controls {
+
+	li {
+		display:inline;
+		float: left;
+		line-height: 24px;
+	}
+}
+
+
 .filtered {
 	@include padding-leader(8);
 

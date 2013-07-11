@@ -442,10 +442,16 @@ img {
   width: 100%;
   margin: 0 auto; }
 
-/* line 1, ../../sass/_filtered.scss */
+/* line 3, ../../sass/_filtered.scss */
+.controls li {
+  display: inline;
+  float: left;
+  line-height: 24px; }
+
+/* line 11, ../../sass/_filtered.scss */
 .filtered {
   padding-top: 3em; }
-  /* line 8, ../../sass/_filtered.scss */
+  /* line 18, ../../sass/_filtered.scss */
   .filtered li {
     width: 25.3%;
     float: left;
@@ -454,22 +460,22 @@ img {
     display: inline;
     border-bottom: none;
     padding-bottom: 24px; }
-    /* line 17, ../../sass/_filtered.scss */
+    /* line 27, ../../sass/_filtered.scss */
     .filtered li:nth-of-type(3) {
       margin-right: 0; }
-    /* line 20, ../../sass/_filtered.scss */
+    /* line 30, ../../sass/_filtered.scss */
     .filtered li:nth-of-type(6) {
       margin-right: 0; }
-    /* line 24, ../../sass/_filtered.scss */
+    /* line 34, ../../sass/_filtered.scss */
     .filtered li:nth-of-type(9) {
       margin-right: 0; }
-    /* line 28, ../../sass/_filtered.scss */
+    /* line 38, ../../sass/_filtered.scss */
     .filtered li:nth-of-type(12) {
       margin-right: 0; }
-    /* line 33, ../../sass/_filtered.scss */
+    /* line 43, ../../sass/_filtered.scss */
     .filtered li img {
       border-radius: 190px; }
-    /* line 39, ../../sass/_filtered.scss */
+    /* line 49, ../../sass/_filtered.scss */
     .filtered li .title {
       font-size: 24px;
       line-height: 36px;
@@ -478,10 +484,10 @@ img {
       text-align: center;
       padding-top: 12px;
       padding-bottom: 6px; }
-      /* line 48, ../../sass/_filtered.scss */
+      /* line 58, ../../sass/_filtered.scss */
       .filtered li .title a {
         color: black; }
-    /* line 53, ../../sass/_filtered.scss */
+    /* line 63, ../../sass/_filtered.scss */
     .filtered li .producer {
       font-size: 18px;
       line-height: 30px;
@@ -795,6 +801,15 @@ img {
   float: left;
   height: 155px;
   z-index: 9; }
+
+/* line 1, ../../sass/_footer.scss */
+footer.footer {
+  background: black;
+  padding-top: 4.5em;
+  padding-top: 4.5em; }
+  /* line 7, ../../sass/_footer.scss */
+  footer.footer a {
+    color: white; }
 
 /* line 5, ../../sass/_utilities.scss */
 .mobile-hidden {
