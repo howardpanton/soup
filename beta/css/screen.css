@@ -1,0 +1,76 @@
+/*
+Syntax error: File to import not found or unreadable: accordion-section.
+              Load paths:
+                /Users/howard/Dropbox/htdocs/soup-beta/sass
+                /Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/frameworks/blueprint/stylesheets
+                /Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/frameworks/compass/stylesheets
+                Compass::SpriteImporter
+        on line 10 of /Users/howard/Dropbox/htdocs/soup-beta/sass/screen.scss
+
+Backtrace:
+/Users/howard/Dropbox/htdocs/soup-beta/sass/screen.scss:10
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/tree/import_node.rb:45:in `import'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/tree/root_node.rb:20:in `render'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/engine.rb:315:in `_render'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/engine.rb:262:in `render'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/path.rb:31:in `create'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/state/directory.rb:26:in `block in created'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/state/directory.rb:25:in `each'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/state/directory.rb:25:in `created'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/state/directory.rb:17:in `refresh'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block in run'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `loop'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `run'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/bin/compass:44:in `call'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/bin/compass:19:in `load'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/bin/compass:19:in `<main>'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/bin/ruby_noexec_wrapper:14:in `eval'
+/Users/howard/.rvm/gems/ruby-1.9.3-p392/bin/ruby_noexec_wrapper:14:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: accordion-section.\A               Load paths:\A                 /Users/howard/Dropbox/htdocs/soup-beta/sass\A                 /Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Users/howard/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 10 of /Users/howard/Dropbox/htdocs/soup-beta/sass/screen.scss"; }
