@@ -1,3 +1,4 @@
+@import "compass/css3/font-face";
 @include establish-baseline(16px);
 
 
@@ -9,9 +10,16 @@ html {
     @include box-sizing(border-box);
 }
 
+@include font-face("Gill-Sans-Light", font-files("Gill-Sans-WFS-Light/Gill-Sans-WFS-Light.woff", "Gill-Sans-WFS-Light/Gill-Sans-WFS-Light.ttf", "Gill-Sans-WFS-Light/Gill-Sans-WFS-Light.svg", "Gill-Sans-WFS-Light/Gill-Sans-WFS-Light.eot"));
+@include font-face("Gill-Sans-Light-Italic", font-files("Gill-Sans-WFS-Light-Italic/Gill-Sans-WFS-Light-Italic.woff", "Gill-Sans-WFS-Light-Italic/Gill-Sans-WFS-Light-Italic.ttf", "Gill-Sans-WFS-Light-Italic/Gill-Sans-WFS-Light-Italic.svg", "Gill-Sans-WFS-Light-Italic/Gill-Sans-WFS-Light-Italic.eot"));
+@include font-face("Gill-Sans-Bold", font-files("Gill-Sans-WFS-Bold/Gill-Sans-WFS-Bold.woff", "Gill-Sans-WFS-Bold/Gill-Sans-WFS-Bold.ttf", "Gill-Sans-WFS-Bold/Gill-Sans-WFS-Bold.svg", "Gill-Sans-WFS-Bold/Gill-Sans-WFS-Bold.eot"));
+@include font-face("Gill-Sans-Bold-Display", font-files("Gill-Sans-WFS-Display-Bold/Gill-Sans-WFS-Display-Bold.woff", "Gill-Sans-WFS-Display-Bold/Gill-Sans-WFS-Display-Bold.ttf", "Gill-Sans-WFS-Display-Bold/Gill-Sans-WFS-Display-Bold.svg", "Gill-Sans-WFS-Display-Bold/Gill-Sans-WFS-Display-Bold.eot"));
+
+@include font-face("entypo", font-files("entypo/entypo.ttf", "entypo/entypo.otf", "entypo/entypo.eot", "entypo/entypo.woff"));
+@include font-face("entypo-social", font-files("entypo-social/entypo-social.ttf", "entypo-social/entypo-social.svg" , "entypo-social/entypo-social.eot" , "entypo-social/entypo-social.woff"));
 
 body {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-family: "Gill-Sans-Light", "Gill Sans MT", sans-serif;
   font-size: emCalc(16px);
   font-weight:300;
   color:black;
@@ -21,16 +29,9 @@ body {
   }
 }
 
-@include font-face("entypo", font-files("entypo/entypo.ttf", "fonts/entypo/entypo.otf" , "entypo/entypo.eot" , "entypo/entypo.woff"));
-@include font-face("entypo-social", font-files("entypo-social/entypo-social.ttf", "entypo-social/entypo-social.svg" , "entypo-social/entypo-social.eot" , "fonts/entypo-social/entypo-social.woff"));
- 
-
-
 a {
   color: $primary;
   text-decoration: none;
-
-  
 }
 
 
@@ -109,8 +110,6 @@ aside {
     width: 100%;
   }
 }
-
-
 
 .icon {
   font-family: "entypo";

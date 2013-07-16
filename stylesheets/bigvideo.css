@@ -1,0 +1,139 @@
+/*  BigVideo Styles 
+  You may need to adjust these styles to get this working right in your design. 
+*/
+/* line 4, ../sass/bigvideo.scss */
+#big-video-wrap {
+  overflow: hidden;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* line 5, ../sass/bigvideo.scss */
+#big-video-vid, #big-video-image {
+  position: absolute;
+}
+
+/* line 6, ../sass/bigvideo.scss */
+#big-video-control-container {
+  position: fixed;
+  bottom: 20px;
+  padding: 0 20px;
+  width: 100%;
+  -webkit-transition-duration: 0.6s;
+  -moz-transition-duration: 0.6s;
+  -ms-transition-duration: 0.6s;
+  -o-transition-duration: 0.6s;
+  transition-duration: 0.6s;
+}
+
+/* line 8, ../sass/bigvideo.scss */
+#big-video-control {
+  width: 100%;
+  height: 16px;
+  position: relative;
+}
+
+/* line 9, ../sass/bigvideo.scss */
+#big-video-control-middle {
+  margin: 0 56px 0 24px;
+}
+
+/* line 10, ../sass/bigvideo.scss */
+#big-video-control-bar {
+  width: 100%;
+  height: 16px;
+  position: relative;
+  cursor: pointer;
+}
+
+/* line 11, ../sass/bigvideo.scss */
+#big-video-control-progress {
+  position: absolute;
+  top: 7px;
+  height: 3px;
+  width: 0%;
+  background: #fff;
+}
+
+/* line 12, ../sass/bigvideo.scss */
+#big-video-control-track {
+  position: absolute;
+  top: 8px;
+  height: 1px;
+  width: 100%;
+  background: #fff;
+}
+
+/* line 13, ../sass/bigvideo.scss */
+#big-video-control-bound-left {
+  left: 0;
+}
+
+/* line 14, ../sass/bigvideo.scss */
+#big-video-control-bound-right {
+  right: -1px;
+}
+
+/* line 15, ../sass/bigvideo.scss */
+#big-video-control-track .ui-slider-handle {
+  opacity: 0;
+}
+
+/* line 16, ../sass/bigvideo.scss */
+#big-video-control-playhead {
+  left: 30%;
+}
+
+/* line 17, ../sass/bigvideo.scss */
+#big-video-control-play {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-image: url("bigvideo.png");
+}
+
+/* line 18, ../sass/bigvideo.scss */
+#big-video-control-timer {
+  position: absolute;
+  top: 1px;
+  right: 0;
+  color: #fff;
+  font-size: 11px;
+}
+
+/* line 19, ../sass/bigvideo.scss */
+#big-video-control-playhead, #big-video-control-bound-left, #big-video-control-bound-right {
+  position: absolute;
+  top: 0;
+  height: 16px;
+  width: 1px;
+  background: #fff;
+}
+
+/* line 20, ../sass/bigvideo.scss */
+#big-video-control .ui-slider-handle {
+  border-left: solid 1px #fff;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: -8px;
+}
+
+/* line 21, ../sass/bigvideo.scss */
+.transparent {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+}
+
+/* line 22, ../sass/bigvideo.scss */
+.vjs-big-play-button {
+  display: none !important;
+}
