@@ -19,7 +19,7 @@
 			forceAutoplay:false,
 			controls:true,
 			doLoop:false,
-			container:$('body')
+			container:$('.banner')
         };
 
         var BigVideo = this,

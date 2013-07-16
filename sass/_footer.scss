@@ -1,11 +1,12 @@
 footer.footer {
-  background:black;
+  background:white;
+  clear:left;
 
   @include padding-leader(12);
   @include padding-leader(12);
 
   a {
-    color: white;
+    color: black;
 
   }
 }

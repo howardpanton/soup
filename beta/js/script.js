@@ -8,9 +8,29 @@
   });
 
 
-$('nav.circle').toggle(function(e){ 
-    $(this).next('.menu').removeClass('mobile-hidden').slideDown('1500','easeInOutSine');
-  e.preventDefault();
+// $('nav.circle').toggle(function(e){ 
+//     $(this).next('.menu').removeClass('mobile-hidden').slideDown('1500','easeInOutSine');
+//   e.preventDefault();
+// },function(e){
+//   $(this).next('.menu').addClass('mobile-hidden').slideUp('1500','easeInOutSine');
+//     e.preventDefault();
+// });
+
+$('nav.home').toggle(function(e){ 
+  
+  $(this).next('.menu').addClass('mobile-hidden');
+   $('.black-banner').animate({
+    height: '100%'
+  }, 2000, function() {
+    // Animation complete.
+  });
+      $('.banner').animate({
+    height: '260px'
+  }, 2000, function() {
+    // Animation complete.
+  });
+  //   $(this).next('.menu').removeClass('mobile-hidden').slideDown('1500','easeInOutSine');
+  // e.preventDefault();
 },function(e){
   $(this).next('.menu').addClass('mobile-hidden').slideUp('1500','easeInOutSine');
     e.preventDefault();

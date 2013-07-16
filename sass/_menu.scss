@@ -1,6 +1,8 @@
   .menu {
 
       color:white;
+      position:relative;
+      z-index:9;
         @include gs-media (m) {
 
       @include gs-span(m,all);

@@ -1,5 +1,6 @@
 .latest-text {
 
+        clear:left;
         @include gs-media (m) {
         @include gs-span(m,all);
         }
