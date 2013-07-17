@@ -21,18 +21,28 @@ $('nav.home').toggle(function(e){
   $(this).next('.menu').addClass('mobile-hidden');
    $('.black-banner').animate({
     height: '100%'
-  }, 2000, function() {
+  }, 400, function() {
     // Animation complete.
   });
       $('.banner').animate({
     height: '260px'
-  }, 2000, function() {
-    // Animation complete.
+  }, 500, function() {
+    $('.banner').attr("style", "").css("height", "260px");
   });
   //   $(this).next('.menu').removeClass('mobile-hidden').slideDown('1500','easeInOutSine');
-  // e.preventDefault();
+   e.preventDefault();
 },function(e){
-  $(this).next('.menu').addClass('mobile-hidden').slideUp('1500','easeInOutSine');
+  $(this).next('.menu').removeClass('mobile-hidden');
+    $('.black-banner').animate({
+    height: '0%'
+  }, 400, function() {
+    $('.black-banner').attr("style", "");
+  });
+    $('.banner').animate({
+    height: '480px'
+  }, 500, function() {
+    $('.banner').attr("style", "");
+  });
     e.preventDefault();
 });
 

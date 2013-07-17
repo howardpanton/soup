@@ -10,7 +10,7 @@
 
       @include gs-media (d) {
         @include gs-span(d,3, 10);
-
+         padding-top: $base-line-height * 12;
         }
 
    h2 {

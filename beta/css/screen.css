@@ -313,7 +313,9 @@ img {
     height: 44px;
     width: 44px;
     z-index: 9;
-    box-shadow: 0px 4px 4px #cccccc; } }
+    -webkit-box-shadow: #cccccc 0px 4px 4px 10px;
+    -moz-box-shadow: #cccccc 0px 4px 4px 10px;
+    box-shadow: #cccccc 0px 4px 4px 10px; } }
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   /* line 3, ../../sass/_circle.scss */
   .circle, .menu-active {
@@ -325,19 +327,23 @@ img {
     height: 72px;
     width: 72px;
     z-index: 9;
-    box-shadow: 0px 4px 4px #999999; } }
+    -webkit-box-shadow: #cccccc 0px 4px 4px 10px;
+    -moz-box-shadow: #cccccc 0px 4px 4px 10px;
+    box-shadow: #cccccc 0px 4px 4px 10px; } }
 @media only screen and (min-width: 960px) {
   /* line 3, ../../sass/_circle.scss */
   .circle, .menu-active {
     border-radius: 50%;
     position: absolute;
     margin: 0 auto;
-    left: 47.5%;
+    left: 48.5%;
     bottom: -36px;
     height: 72px;
     width: 72px;
     z-index: 9;
-    box-shadow: 0px 2px 2px #cccccc; } }
+    -webkit-box-shadow: #ebebeb 0px 30px 32px 4px;
+    -moz-box-shadow: #ebebeb 0px 30px 32px 4px;
+    box-shadow: #ebebeb 0px 30px 32px 4px; } }
 
 /* line 44, ../../sass/_circle.scss */
 .play-btn {
@@ -689,6 +695,47 @@ img {
   .play-button:hover {
     color: #ccc; }
 
+@media only screen and (min-width: 960px) {
+  /* line 2, ../../sass/_twitter.scss */
+  .latest-tweet .twitter, .latest-tweet .date, .latest-tweet .tweet {
+    display: block;
+    float: left;
+    margin-left: 17.08333%;
+    margin-right: -100%;
+    width: 65.83333%;
+    clear: left;
+    text-align: center; } }
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /* line 2, ../../sass/_twitter.scss */
+  .latest-tweet .twitter, .latest-tweet .date, .latest-tweet .tweet {
+    display: block;
+    float: left;
+    margin-left: 12.89063%;
+    margin-right: -100%;
+    width: 74.21875%;
+    clear: left;
+    text-align: center; } }
+/* line 16, ../../sass/_twitter.scss */
+.latest-tweet .twitter {
+  color: white;
+  font-size: 6em;
+  padding-top: 72px;
+  padding-bottom: 24px;
+  line-height: 48px; }
+/* line 24, ../../sass/_twitter.scss */
+.latest-tweet .date {
+  font-size: 24px;
+  line-height: 36px;
+  padding-top: 24px;
+  padding-bottom: 18px; }
+/* line 32, ../../sass/_twitter.scss */
+.latest-tweet .tweet {
+  padding-top: 2em;
+  font-size: 18px;
+  line-height: 30px;
+  padding-top: 18px;
+  padding-bottom: 72px; }
+
 /* line 1, ../../sass/_latest-text.scss */
 .latest-text {
   clear: left; }
@@ -715,7 +762,8 @@ img {
       float: left;
       margin-left: 17.08333%;
       margin-right: -100%;
-      width: 65.83333%; } }
+      width: 65.83333%;
+      padding-top: 72px; } }
   @media only screen and (max-width: 767px) {
     /* line 16, ../../sass/_latest-text.scss */
     .latest-text h2 {
