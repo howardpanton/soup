@@ -1,0 +1,121 @@
+@include establish-baseline(16px);
+
+
+html {
+    overflow-y: scroll;
+}
+
+* {
+    @include box-sizing(border-box);
+}
+
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-size: emCalc(16px);
+  font-weight:300;
+  color:black;
+  min-width:320px;
+  @media screen and (min-width: 75em) {
+    font-size: emCalc(18px) ; // 18  
+  }
+}
+
+@include font-face("entypo", font-files("entypo/entypo.ttf", "fonts/entypo/entypo.otf" , "entypo/entypo.eot" , "entypo/entypo.woff"));
+@include font-face("entypo-social", font-files("entypo-social/entypo-social.ttf", "entypo-social/entypo-social.svg" , "entypo-social/entypo-social.eot" , "fonts/entypo-social/entypo-social.woff"));
+ 
+
+
+a {
+  color: $primary;
+  text-decoration: none;
+
+  
+}
+
+
+h1 { 
+  font-size:emCalc(36px); 
+  @include adjust-leading-to(7, 36px); 
+  // padding: rhythm(5, 36px) 0 rhythm(3, 36px) 0;  
+
+  @include gs-media(t,min-max) {
+    font-size: emCalc(54px); 
+    @include adjust-leading-to(10, 54px); 
+    // padding: rhythm(7, 54px) 0 rhythm(5, 54px) 0;  
+  }
+  
+  @include gs-media(d) {
+    font-size: emCalc(54px); 
+    @include adjust-leading-to(10, 54px);
+    // padding: rhythm(7, 54px) 0 rhythm(5, 54px) 0;  
+  }
+}
+h2 { 
+  font-size: emCalc(24px);
+  @include adjust-leading-to(4, 24px); 
+  padding: rhythm(4, 24px) 0 rhythm(3, 24px) 0;   
+
+  @include gs-media(t,min-max) {
+    font-size: emCalc(36px); 
+    @include adjust-leading-to(7, 36px); 
+    padding: rhythm(4, 36px) 0 rhythm(3, 36px) 0;   
+  }
+  @include gs-media(d) {
+    font-size: emCalc(36px); 
+    @include adjust-leading-to(7, 36px); 
+    padding: rhythm(4, 36px) 0 rhythm(3, 36px) 0;   
+  }
+}
+h3 { 
+  font-size: emCalc(24px);
+  @include adjust-leading-to(4, 24px); 
+  padding: rhythm(4, 24px) 0 rhythm(3, 24px) 0;   
+}
+h4 { 
+  font-size: emCalc(18px); 
+  @include adjust-leading-to(3, 18px); 
+  padding: rhythm(4, 18px) 0 rhythm(3, 18px) 0;   
+  
+  @media screen and (min-width: 75em) {
+    font-size: emCalc(24px); 
+    @include adjust-leading-to(4, 24px); 
+    padding: rhythm(4, 24px) 0 rhythm(3, 24px) 0;   
+  }
+}
+h5, h6 { 
+  font-size: emCalc(16px); 
+  @include adjust-leading-to(3, 16px); 
+  padding: rhythm(4, 16px) 0 rhythm(3, 16px) 0;   
+
+  @media screen and (min-width: 75em) {
+    font-size: emCalc(18px); 
+    @include adjust-leading-to(3, 18px); 
+    padding: rhythm(4, 18px) 0 rhythm(3, 18px) 0;   
+  }
+}
+
+p {
+  font-size:16px;
+  line-height:24px;
+}
+
+.title {
+  font-weight: 500;
+}
+
+aside {
+  img {
+    width: 100%;
+  }
+}
+
+
+
+.icon {
+  font-family: "entypo";
+}
+
+.icon-social {
+  font-family: "entypo-social";
+}
