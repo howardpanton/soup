@@ -114,8 +114,16 @@ left: 30%;
     }
 
     .play-button {
-      font-size: 5em;
-      color:black;
+        font-size: 5em;
+        width: 70px;
+        height: 70px;
+        background: black;
+        color:white;
+        border-radius: 70px;
+        line-height: 72px;
+        text-align: center;
+        text-indent: 5px;
+        margin: 0 auto;
 
       .back & {
         color:white;
@@ -125,5 +133,7 @@ left: 30%;
         color:#ccc;
       }
     }
+
+
 
 

@@ -229,11 +229,19 @@
 /* line 116, ../sass/_flipper.scss */
 .play-button {
   font-size: 5em;
-  color: black; }
-  /* line 120, ../sass/_flipper.scss */
+  width: 70px;
+  height: 70px;
+  background: black;
+  color: white;
+  border-radius: 70px;
+  line-height: 72px;
+  text-align: center;
+  text-indent: 5px;
+  margin: 0 auto; }
+  /* line 128, ../sass/_flipper.scss */
   .back .play-button {
     color: white; }
-  /* line 124, ../sass/_flipper.scss */
+  /* line 132, ../sass/_flipper.scss */
   .play-button:hover {
     color: #ccc; }
 
@@ -242,9 +250,9 @@
   .latest-tweet .twitter, .latest-tweet .date, .latest-tweet .tweet {
     display: block;
     float: left;
-    margin-left: 17.08333%;
+    margin-left: 25.625%;
     margin-right: -100%;
-    width: 65.83333%;
+    width: 48.75%;
     clear: left;
     text-align: center; } }
 @media only screen and (min-width: 768px) and (max-width: 959px) {

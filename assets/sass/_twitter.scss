@@ -1,7 +1,7 @@
 .latest-tweet {
       .twitter, .date, .tweet {
         @include gs-media (d) {
-        @include gs-span(d,3, 10);
+        @include gs-span(d,4, 9);
         clear:left;
         text-align:center;
         }
