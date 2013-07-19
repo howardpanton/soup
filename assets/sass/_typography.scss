@@ -21,8 +21,8 @@ body {
   }
 }
 
-@include font-face("entypo", font-files("entypo/entypo.ttf", "fonts/entypo/entypo.otf" , "entypo/entypo.eot" , "entypo/entypo.woff"));
-@include font-face("entypo-social", font-files("entypo-social/entypo-social.ttf", "entypo-social/entypo-social.svg" , "entypo-social/entypo-social.eot" , "fonts/entypo-social/entypo-social.woff"));
+@include font-face("entypo", font-files("entypo/entypo.ttf", "entypo/entypo.otf" , "entypo/entypo.eot" , "entypo/entypo.woff"));
+@include font-face("entypo-social", font-files("entypo-social/entypo-social.ttf", "entypo-social/entypo-social.svg" , "entypo-social/entypo-social.eot" , "entypo-social/entypo-social.woff"));
  
 
 

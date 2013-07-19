@@ -83,11 +83,11 @@ body {
 
 @font-face {
   font-family: "entypo";
-  src: url('/assets/fonts/entypo/entypo.ttf') format('truetype'), url('/assets/fonts/fonts/entypo/entypo.otf') format('opentype'), url('/assets/fonts/entypo/entypo.eot') format('embedded-opentype'), url('/assets/fonts/entypo/entypo.woff') format('woff'); }
+  src: url('/assets/fonts/entypo/entypo.ttf') format('truetype'), url('/assets/fonts/entypo/entypo.otf') format('opentype'), url('/assets/fonts/entypo/entypo.eot') format('embedded-opentype'), url('/assets/fonts/entypo/entypo.woff') format('woff'); }
 
 @font-face {
   font-family: "entypo-social";
-  src: url('/assets/fonts/entypo-social/entypo-social.ttf') format('truetype'), url('/assets/fonts/entypo-social/entypo-social.svg') format('svg'), url('/assets/fonts/entypo-social/entypo-social.eot') format('embedded-opentype'), url('/assets/fonts/fonts/entypo-social/entypo-social.woff') format('woff'); }
+  src: url('/assets/fonts/entypo-social/entypo-social.ttf') format('truetype'), url('/assets/fonts/entypo-social/entypo-social.svg') format('svg'), url('/assets/fonts/entypo-social/entypo-social.eot') format('embedded-opentype'), url('/assets/fonts/entypo-social/entypo-social.woff') format('woff'); }
 
 /* line 29, ../sass/_typography.scss */
 a {
