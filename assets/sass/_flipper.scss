@@ -63,7 +63,7 @@ padding: 12px;
       .text {
         font-size: 1em;
         color:black;
- top: 26%;
+ top: 20%;
 left: 30%;
         position: absolute;
           p {
@@ -114,17 +114,16 @@ left: 30%;
     }
 
     .play-button {
-        font-size: 5em;
+        font-size: 2em;
         width: 70px;
         height: 70px;
-        background: black;
-        color:white;
+        background: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         border-radius: 70px;
-        line-height: 72px;
+        line-height: 2.1;
         text-align: center;
-        text-indent: 5px;
+        text-indent: 8px;
         margin: 0 auto;
-
       .back & {
         color:white;
       }

@@ -6,36 +6,36 @@
     margin: 0 auto;
     left: 46%;
     bottom: -22px;
-    height: 44px;
-    width: 44px;
+    height: 48px;
+    width: 48px;
     z-index: 9;
-    -webkit-box-shadow: #cccccc 0px 4px 4px 10px;
-    -moz-box-shadow: #cccccc 0px 4px 4px 10px;
-    box-shadow: #cccccc 0px 4px 4px 10px; } }
+    -webkit-box-shadow: #ebebeb 0px 30px 32px 4px;
+    -moz-box-shadow: #ebebeb 0px 30px 32px 4px;
+    box-shadow: #ebebeb 0px 30px 32px 4px; } }
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   /* line 3, ../sass/_circle.scss */
   .circle, .menu-active {
     border-radius: 50%;
     position: absolute;
     margin: 0 auto;
-    left: 47.5%;
+    left: 48.5%;
     bottom: -36px;
-    height: 72px;
-    width: 72px;
+    height: 48px;
+    width: 48px;
     z-index: 9;
-    -webkit-box-shadow: #cccccc 0px 4px 4px 10px;
-    -moz-box-shadow: #cccccc 0px 4px 4px 10px;
-    box-shadow: #cccccc 0px 4px 4px 10px; } }
+    -webkit-box-shadow: #ebebeb 0px 30px 32px 4px;
+    -moz-box-shadow: #ebebeb 0px 30px 32px 4px;
+    box-shadow: #ebebeb 0px 30px 32px 4px; } }
 @media only screen and (min-width: 960px) {
   /* line 3, ../sass/_circle.scss */
   .circle, .menu-active {
     border-radius: 50%;
     position: absolute;
     margin: 0 auto;
-    left: 47.5%;
-    bottom: -36px;
-    height: 72px;
-    width: 72px;
+    left: 48.5%;
+    bottom: -24px;
+    height: 48px;
+    width: 48px;
     z-index: 9;
     -webkit-box-shadow: #ebebeb 0px 30px 32px 4px;
     -moz-box-shadow: #ebebeb 0px 30px 32px 4px;
@@ -181,7 +181,7 @@
   .front .text {
     font-size: 1em;
     color: black;
-    top: 26%;
+    top: 20%;
     left: 30%;
     position: absolute; }
     /* line 69, ../sass/_flipper.scss */
@@ -228,20 +228,20 @@
 
 /* line 116, ../sass/_flipper.scss */
 .play-button {
-  font-size: 5em;
+  font-size: 2em;
   width: 70px;
   height: 70px;
   background: black;
   color: white;
   border-radius: 70px;
-  line-height: 72px;
+  line-height: 2.1;
   text-align: center;
-  text-indent: 5px;
+  text-indent: 8px;
   margin: 0 auto; }
-  /* line 128, ../sass/_flipper.scss */
+  /* line 127, ../sass/_flipper.scss */
   .back .play-button {
     color: white; }
-  /* line 132, ../sass/_flipper.scss */
+  /* line 131, ../sass/_flipper.scss */
   .play-button:hover {
     color: #ccc; }
 

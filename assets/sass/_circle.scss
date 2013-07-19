@@ -8,22 +8,22 @@
     margin: 0 auto;
     left: 46%;
     bottom: -22px;
-    height: 44px;
-    width: 44px;
+    height: 48px;
+    width: 48px;
     z-index:9;
-    @include box-shadow(#cccccc 0px 4px 4px 10px);
+    @include box-shadow(#EBEBEB 0px 30px 32px 4px);
   }
 
   @include gs-media (t, min-max) {
     border-radius: 50%;
     position: absolute;
     margin: 0 auto;
-    left: 47.5%;
+    left: 48.5%;
     bottom: -36px; 
-    height:72px;
-    width:72px;
+    height:48px;
+    width:48px;
     z-index:9;
-    @include box-shadow(#cccccc 0px 4px 4px 10px);
+    @include box-shadow(#EBEBEB 0px 30px 32px 4px);
     }
 
 
@@ -31,10 +31,10 @@
     border-radius: 50%;
     position: absolute;
     margin: 0 auto;
-    left: 47.5%;
-    bottom: -36px; 
-    height:72px;
-    width:72px;
+    left: 48.5%;
+    bottom: -24px; 
+    height:48px;
+    width:48px;
     z-index:9;
     @include box-shadow(#EBEBEB 0px 30px 32px 4px);
     }
