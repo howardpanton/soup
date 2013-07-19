@@ -1,18 +1,17 @@
-    @mixin circle($radi) {
-      border-radius: 50%;
-      width: $radi;
-      height: $radi; 
-    }
+@mixin circle($radi) {
+  border-radius: 50%;
+  width: $radi;
+  height: $radi; 
+}
 
-    @mixin rotate($degrees) {
-  -webkit-transform: rotate($degrees);
-     -moz-transform: rotate($degrees);
-      -ms-transform: rotate($degrees);
-       -o-transform: rotate($degrees);
-          transform: rotate($degrees);
+@mixin rotate($degrees) {
+-webkit-transform: rotate($degrees);
+   -moz-transform: rotate($degrees);
+    -ms-transform: rotate($degrees);
+     -o-transform: rotate($degrees);
+        transform: rotate($degrees);
 }
 
 @mixin default-transition() {
   transition: all 0.4s ease-in-out;
 }
-

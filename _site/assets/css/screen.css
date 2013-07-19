@@ -59,27 +59,31 @@ html {
   font-size: 100%;
   line-height: 0.375em; }
 
-/* line 4, ../sass/_typography.scss */
+/* line 5, ../sass/_typography.scss */
 html {
   overflow-y: scroll; }
 
-/* line 8, ../sass/_typography.scss */
+/* line 9, ../sass/_typography.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 13, ../sass/_typography.scss */
-body {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-  font-size: 1em;
-  font-weight: 300;
-  color: black;
-  min-width: 320px; }
-  @media screen and (min-width: 75em) {
-    /* line 13, ../sass/_typography.scss */
-    body {
-      font-size: 1.125em; } }
+@font-face {
+  font-family: "Gill-Sans-Light";
+  src: url('/assets/fonts/Gill-Sans-WFS-Light/Gill-Sans-WFS-Light.woff') format('woff'), url('/assets/fonts/Gill-Sans-WFS-Light/Gill-Sans-WFS-Light.ttf') format('truetype'), url('/assets/fonts/Gill-Sans-WFS-Light/Gill-Sans-WFS-Light.svg') format('svg'), url('/assets/fonts/Gill-Sans-WFS-Light/Gill-Sans-WFS-Light.eot') format('embedded-opentype'); }
+
+@font-face {
+  font-family: "Gill-Sans-Light-Italic";
+  src: url('/assets/fonts/Gill-Sans-WFS-Light-Italic/Gill-Sans-WFS-Light-Italic.woff') format('woff'), url('/assets/fonts/Gill-Sans-WFS-Light-Italic/Gill-Sans-WFS-Light-Italic.ttf') format('truetype'), url('/assets/fonts/Gill-Sans-WFS-Light-Italic/Gill-Sans-WFS-Light-Italic.svg') format('svg'), url('/assets/fonts/Gill-Sans-WFS-Light-Italic/Gill-Sans-WFS-Light-Italic.eot') format('embedded-opentype'); }
+
+@font-face {
+  font-family: "Gill-Sans-Bold";
+  src: url('/assets/fonts/Gill-Sans-WFS-Bold/Gill-Sans-WFS-Bold.woff') format('woff'), url('/assets/fonts/Gill-Sans-WFS-Bold/Gill-Sans-WFS-Bold.ttf') format('truetype'), url('/assets/fonts/Gill-Sans-WFS-Bold/Gill-Sans-WFS-Bold.svg') format('svg'), url('/assets/fonts/Gill-Sans-WFS-Bold/Gill-Sans-WFS-Bold.eot') format('embedded-opentype'); }
+
+@font-face {
+  font-family: "Gill-Sans-Bold-Display";
+  src: url('/assets/fonts/Gill-Sans-WFS-Display-Bold/Gill-Sans-WFS-Display-Bold.woff') format('woff'), url('/assets/fonts/Gill-Sans-WFS-Display-Bold/Gill-Sans-WFS-Display-Bold.ttf') format('truetype'), url('/assets/fonts/Gill-Sans-WFS-Display-Bold/Gill-Sans-WFS-Display-Bold.svg') format('svg'), url('/assets/fonts/Gill-Sans-WFS-Display-Bold/Gill-Sans-WFS-Display-Bold.eot') format('embedded-opentype'); }
 
 @font-face {
   font-family: "entypo";
@@ -89,92 +93,104 @@ body {
   font-family: "entypo-social";
   src: url('/assets/fonts/entypo-social/entypo-social.ttf') format('truetype'), url('/assets/fonts/entypo-social/entypo-social.svg') format('svg'), url('/assets/fonts/entypo-social/entypo-social.eot') format('embedded-opentype'), url('/assets/fonts/entypo-social/entypo-social.woff') format('woff'); }
 
-/* line 29, ../sass/_typography.scss */
+/* line 21, ../sass/_typography.scss */
+body {
+  font-family: "Gill-Sans-Light", "Gill Sans MT", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  color: black;
+  min-width: 320px; }
+  @media screen and (min-width: 75em) {
+    /* line 21, ../sass/_typography.scss */
+    body {
+      font-size: 1.125em; } }
+
+/* line 32, ../sass/_typography.scss */
 a {
   color: white;
   text-decoration: none; }
 
-/* line 37, ../sass/_typography.scss */
+/* line 38, ../sass/_typography.scss */
 h1 {
   font-size: 2.25em;
   line-height: 1.16667em; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
-    /* line 37, ../sass/_typography.scss */
+    /* line 38, ../sass/_typography.scss */
     h1 {
       font-size: 3.375em;
       line-height: 1.11111em; } }
   @media only screen and (min-width: 960px) {
-    /* line 37, ../sass/_typography.scss */
+    /* line 38, ../sass/_typography.scss */
     h1 {
       font-size: 3.375em;
       line-height: 1.11111em; } }
 
-/* line 54, ../sass/_typography.scss */
+/* line 55, ../sass/_typography.scss */
 h2 {
   font-size: 1.5em;
   line-height: 1em;
   padding: 1em 0 0.75em 0; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
-    /* line 54, ../sass/_typography.scss */
+    /* line 55, ../sass/_typography.scss */
     h2 {
       font-size: 2.25em;
       line-height: 1.16667em;
       padding: 0.66667em 0 0.5em 0; } }
   @media only screen and (min-width: 960px) {
-    /* line 54, ../sass/_typography.scss */
+    /* line 55, ../sass/_typography.scss */
     h2 {
       font-size: 2.25em;
       line-height: 1.16667em;
       padding: 0.66667em 0 0.5em 0; } }
 
-/* line 70, ../sass/_typography.scss */
+/* line 71, ../sass/_typography.scss */
 h3 {
   font-size: 1.5em;
   line-height: 1em;
   padding: 1em 0 0.75em 0; }
 
-/* line 75, ../sass/_typography.scss */
+/* line 76, ../sass/_typography.scss */
 h4 {
   font-size: 1.125em;
   line-height: 1em;
   padding: 1.33333em 0 1em 0; }
   @media screen and (min-width: 75em) {
-    /* line 75, ../sass/_typography.scss */
+    /* line 76, ../sass/_typography.scss */
     h4 {
       font-size: 1.5em;
       line-height: 1em;
       padding: 1em 0 0.75em 0; } }
 
-/* line 86, ../sass/_typography.scss */
+/* line 87, ../sass/_typography.scss */
 h5, h6 {
   font-size: 1em;
   line-height: 1.125em;
   padding: 1.5em 0 1.125em 0; }
   @media screen and (min-width: 75em) {
-    /* line 86, ../sass/_typography.scss */
+    /* line 87, ../sass/_typography.scss */
     h5, h6 {
       font-size: 1.125em;
       line-height: 1em;
       padding: 1.33333em 0 1em 0; } }
 
-/* line 98, ../sass/_typography.scss */
+/* line 99, ../sass/_typography.scss */
 p {
   font-size: 16px;
   line-height: 24px; }
 
-/* line 103, ../sass/_typography.scss */
+/* line 104, ../sass/_typography.scss */
 .title {
   font-weight: 500; }
 
-/* line 108, ../sass/_typography.scss */
+/* line 109, ../sass/_typography.scss */
 aside img {
   width: 100%; }
 
-/* line 115, ../sass/_typography.scss */
+/* line 114, ../sass/_typography.scss */
 .icon {
   font-family: "entypo"; }
 
-/* line 119, ../sass/_typography.scss */
+/* line 118, ../sass/_typography.scss */
 .icon-social {
   font-family: "entypo-social"; }
 
