@@ -1,0 +1,5 @@
+safe: true
+lsi: false
+pygments: true
+url: http://howardpanton.github.io/soup/
+exclude: [styles, config.rb, README.md]

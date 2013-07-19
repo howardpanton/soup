@@ -1,0 +1,87 @@
+// VARIABLES FOR GLOBAL USE
+
+// Colours
+// ------------------------------------------------------------
+
+// Define your main colour palette
+$background   : #000000;
+$primary    : #ffffff;
+
+
+
+// Fonts, measure, leading and typefaces
+// ------------------------------------------------------------
+
+
+// Set up Fonts directory & font file names for UAL custom font embeds
+
+$base-font-dir : "../../fonts/";
+
+$relative-font-sizing: true;
+$round-to-nearest-half-line :false;
+
+
+// Fonts size and line height defaults for our calculations
+
+$base-font-size           : 16px;         // Sets the browser default size. Shouldn't need to change this.
+$base-line-height         : 6px;          // Baseline grid. Set to a sensible, small size.
+$base-line          : 24px;         // Baseline grid. Set to a sensible, small size.
+$round-to-nearest-half-line     : false;          // Round the line height to the nearest half line height. Off by default 
+$font-family : "Swiss 721", Helvetica Neue, Helvetica, Arial, sans-serif;
+
+
+
+//
+// Foundation Global Variables - required for Foundation components
+// WE NEED TO RATIONALISE THESE VARIABLES WITH COMPASS VARIABLES
+//
+
+// This is the default html and body font-size for the base em value.
+$em-base: $base-font-size;
+
+
+
+
+
+// Functions for px to em conversions
+// ------------------------------------------------------------
+
+@function emify($target, $context) {
+   @if $target == 0 { @return 0 }
+   @return $target / $context + 0em;
+}
+
+// Make px to ems using base-font-size 
+// echo as: font-size: em-font(#px);
+
+@function em-font($target, $context: $base-font-size) {
+   @return emify($target, $context);
+}
+
+
+// Make px to ems using base-line-height 
+// echo as: font-size: em-base(#px);
+
+@function em-base($target, $context: $base-line-height) {
+   @return emify($target, $context);
+}
+
+
+@function em($target, $context: $base-font-size) {
+    @return ($target / $context) * 1em;
+}
+
+// Working in ems is annoying. Think in pixels by using this handy function, emCalc(#px)
+@function emCalc($pxWidth) {
+  @return $pxWidth / $em-base * 1em;
+}
+
+// Creating rems and pixels
+@function remCalc($pxWidth) {
+  @return $pxWidth / $em-base * 1rem;
+}
+
+// Grid Calculation for Percentages
+@function gridCalc($colNumber, $totalColumns) {
+  @return percentage(($colNumber / $totalColumns));
+}

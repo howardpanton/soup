@@ -1,0 +1,162 @@
+// UTILITY CLASSES
+// ---------------
+
+
+.mobile-hidden {
+  display:none;
+}
+
+// Centering text and center-aligning elements
+.centered {
+  text-align: center;
+}
+.alignright {
+  text-align: right;
+}
+.alignleft {
+  text-align: left;
+}
+.aligncenter {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+// Toggling content
+.hide {
+  display: none !important;
+}
+.show, .block {
+  display: block;
+}
+
+// Visibility
+.invisible {
+  visibility: hidden;
+}
+
+// Formatting
+.no-bullet {
+  list-style: none;
+  // margin: 0;
+  padding: 0;
+}
+
+.no-bullet li {
+  list-style: none;
+  // margin: 0;
+  padding: 0;
+}
+// display inline - 
+.display-inline {
+  display: inline-block;
+  
+  li {
+    display: inline-block;
+  }
+}
+
+
+.clear-left { clear: left; }
+
+.clear-right { clear: right; }
+
+.clear-all, .clear-both { clear: both; }  
+
+
+
+
+// Accessible yet invisible text
+.hide-text {
+  //@include hide-text();
+}
+
+
+
+
+/* ::State styles */
+/* ------------------------------------------------------------ */
+
+.is-hidden {
+  display: none;
+}
+
+.is-shown, .is-block {
+  display: block;
+}
+
+.is-uppercase {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.is-lowercase {
+  text-transform: lowercase;
+}
+
+.ajust-margin-top {
+  margin-top:0px;
+}
+
+@include gs-media(m, min-max) {
+
+  .is-removed-mobile {
+    visibility: visible;
+    height: 0px;
+    overflow: hidden;
+  }
+
+  .is-hidden {
+    display:none;
+  }
+
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/* ::Clearfixs and extends. Use which suits best */
+/* ----------------------------------------------------------- */
+
+ 
+
+.cf { 
+  zoom: 1; 
+}
+.cf:before,
+.cf:after { 
+  content: ""; 
+  display: table; 
+}
+.cf:after { 
+  clear: both; 
+}
+
+
+/* Media on panel */
+/* ------------------------------------------------------------ */
+
+
+.media-on-panel {
+
+span {
+
+margin:-5px 0px 12px 0px;
+
+}
+
+}
+
+
