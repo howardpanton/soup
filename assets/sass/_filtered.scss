@@ -7,16 +7,30 @@
     ul {
     	@include gs-media (d) {
      	@include gs-span(d, 3, 10, (3, 10));
-    }
+    	}
 
 		li {
-			display: inline;
 			float: left;
 			line-height: 42px;
 			padding: 1em 0 0.75em 0;
-			font-weight: 400;
 			font-size: 24px;
+			font-family: gill-sans-bold-display;
+			text-align: center;
 			margin-right: 5px;
+
+			@include gs-media (m) {
+		     	clear: left;
+				width: 100%;
+			}
+
+			@include gs-media (t, min-max) {
+				display: inline;
+	     	}
+
+
+			@include gs-media (d) {
+		     	display: inline;
+			}
 
 			&.filter:hover {
 				cursor:pointer;
@@ -26,9 +40,22 @@
     }
 }
 
+// Media query for mobile
+// @include gs-media (m) {
+// }
+
 
 .filtered {
 	padding-top:100px;
+
+	 @include gs-media (t, min-max) {
+	 	padding-top:60px;
+ 	}
+
+ 		 @include gs-media  (d) {
+	 	padding-top:60px;
+ 	}
+
 
 	.play-disk {
 		display: block;
@@ -43,10 +70,10 @@
 			color:black;
 			top: 50%;
 			left: 50%;
-			width: 70px;
-			height: 70px;
+			width: 72px;
+			height: 72px;
 			background: rgb(255, 255, 255);
-			border-radius: 70px;
+			border-radius: 72px;
 			font-size: 2em;
 			line-height: 80px;
 			text-align: center;
@@ -61,6 +88,7 @@
 	ul {
 
 	}
+	
 		li {
 			width: 25.3%;
 			float: left;

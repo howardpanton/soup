@@ -60,7 +60,7 @@ h1 {
 h2 { 
   font-size: emCalc(24px);
   @include adjust-leading-to(4, 24px); 
-  padding: rhythm(4, 24px) 0 rhythm(3, 24px) 0;
+  padding: rhythm(12, 24px) 0 rhythm(3, 24px) 0;
   letter-spacing: 4px;
 
   @include gs-media(t,min-max) {
