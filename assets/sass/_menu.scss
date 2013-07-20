@@ -1,64 +1,63 @@
-  .menu, .menu-normal {
+.menu, .menu-normal {
 
-      color:white;
-      position:relative;
-      z-index:9;
-        @include gs-media (m) {
+  color:white;
+  position:relative;
+  z-index:9;
+  @include gs-media (m) {
+  @include gs-span(m,all);
 
-      @include gs-span(m,all);
+  li {
+    @include gs-span(m,2, 3);
+    clear:left;
+    text-align:center;
+    padding-bottom: $base-line-height * 4;
 
-
-      li {
-        @include gs-span(m,2, 3);
-        clear:left;
-        text-align:center;
-        padding-bottom: $base-line-height * 4;
-
-        a {
-          font-weight:400;
-          font-size:18px;
-          line-height:30px;
-        }
-      }
+    a {
+      font-family:gill-sans-bold-display;
+      font-size:18px;
+      line-height:30px;
+      letter-spacing: 1px;
     }
+  }
+}
 
-    @include gs-media (t, min-max) {
+  @include gs-media (t, min-max) {
+  @include gs-span(t,2, 7);
+    clear:left;
+    padding-bottom: $base-line-height * 12;
 
-      @include gs-span(t,2, 7);
-            clear:left;
-          padding-bottom: $base-line-height * 12;
+    li {
+      width:33%;
+      float:left;
+      display:inline;
+      text-align:center;
 
-
-      li {
-        width:33%;
-        float:left;
-        display:inline;
-        text-align:center;
-
-        a {
-          font-weight:400;
-          font-size:18px;
-          line-height:30px;
-        }
-      }
-    }
-      @include gs-media (d) {
-      @include gs-span(d,3, 10);
-      clear:left;
-          padding-bottom: $base-line-height * 22;
-
-
-      li {
-        width:33%;
-        float:left;
-        display:inline;
-        text-align:center;
-
-        a {
-          font-weight:400;
-          font-size:18px;
-          line-height:30px;
-        }
+      a {
+        font-family:gill-sans-bold-display;
+        font-size:18px;
+        line-height:30px;
+        letter-spacing: 1px;
       }
     }
   }
+
+    @include gs-media (d) {
+    @include gs-span(d,3, 10);
+    clear:left;
+        padding-bottom: $base-line-height * 22;
+
+      li {
+        width:33%;
+        float:left;
+        display:inline;
+        text-align:center;
+
+      a {
+        font-family:gill-sans-bold-display;
+        font-size:18px;
+        line-height:30px;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}

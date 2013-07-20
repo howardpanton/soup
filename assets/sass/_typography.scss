@@ -3,11 +3,11 @@
 
 
 html {
-    overflow-y: scroll;
+  overflow-y: scroll;
 }
 
 * {
-    @include box-sizing(border-box);
+  @include box-sizing(border-box);
 }
 
 @include font-face("Gill-Sans-Light", font-files("Gill-Sans/Gill-Sans-WFS-Light/Gill-Sans-WFS-Light.woff", "Gill-Sans/Gill-Sans-WFS-Light/Gill-Sans-WFS-Light.ttf", "Gill-Sans/Gill-Sans-WFS-Light/Gill-Sans-WFS-Light.svg", "Gill-Sans/Gill-Sans-WFS-Light/Gill-Sans-WFS-Light.eot"));
@@ -53,30 +53,36 @@ h1 {
   @include gs-media(d) {
     font-size: emCalc(54px); 
     @include adjust-leading-to(10, 54px);
-    // padding: rhythm(7, 54px) 0 rhythm(5, 54px) 0;  
+  // padding: rhythm(7, 54px) 0 rhythm(5, 54px) 0;  
   }
 }
+
 h2 { 
   font-size: emCalc(24px);
   @include adjust-leading-to(4, 24px); 
-  padding: rhythm(4, 24px) 0 rhythm(3, 24px) 0;   
+  padding: rhythm(4, 24px) 0 rhythm(3, 24px) 0;
+  letter-spacing: 4px;
 
   @include gs-media(t,min-max) {
     font-size: emCalc(36px); 
     @include adjust-leading-to(7, 36px); 
-    padding: rhythm(4, 36px) 0 rhythm(3, 36px) 0;   
+    padding: rhythm(12, 36px) 0 rhythm(3, 36px) 0;   
+   letter-spacing: 4px;
   }
   @include gs-media(d) {
     font-size: emCalc(36px); 
     @include adjust-leading-to(7, 36px); 
-    padding: rhythm(4, 36px) 0 rhythm(3, 36px) 0;   
+    padding: rhythm(12, 36px) 0 rhythm(3, 36px) 0;   
+    letter-spacing: 4px;
   }
 }
+
 h3 { 
   font-size: emCalc(24px);
   @include adjust-leading-to(4, 24px); 
   padding: rhythm(4, 24px) 0 rhythm(3, 24px) 0;   
 }
+
 h4 { 
   font-size: emCalc(18px); 
   @include adjust-leading-to(3, 18px); 
@@ -88,6 +94,7 @@ h4 {
     padding: rhythm(4, 24px) 0 rhythm(3, 24px) 0;   
   }
 }
+
 h5, h6 { 
   font-size: emCalc(16px); 
   @include adjust-leading-to(3, 16px); 
