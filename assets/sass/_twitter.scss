@@ -1,39 +1,47 @@
 .latest-tweet {
-      .twitter, .date, .tweet {
-        @include gs-media (d) {
-        @include gs-span(d,4, 9);
-        clear:left;
-        text-align:center;
-        }
-              @include gs-media (t, min-max) {
-        @include gs-span(t,2, 7);
-        clear:left;
-        text-align:center;
-        }
-      }
 
+  .twitter, .date, .tweet {
+  @include gs-media (m) {
+    @include gs-span(m,all);
+    clear:left;
+    text-align:center;
+  }
+
+    @include gs-media (t, min-max) {
+      @include gs-span(t,2, 7);
+      clear:left;
+      text-align:center;
+    }
+
+    @include gs-media (d) {
+      @include gs-span(d,4, 9);
+      clear:left;
+      text-align:center;
+    } 
+  }
 
   .twitter {
-color: white;
-font-size: 6em;
-padding-top: 72px;
-padding-bottom: 24px;
-line-height: 48px;
+    color: white;
+    font-size: 6em;
+    // padding-top: 72px;
+    padding-bottom: 24px;
+    line-height: 48px;
   }
 
   .date {
-font-size: 24px;
-line-height: 36px;
-padding-top: 24px;
-padding-bottom: 18px
-
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 24px;
+    padding-bottom: 18px;
+    letter-spacing: 2px;
   }
 
   .tweet {
     padding-top:2em;
     font-size:18px;
     line-height:30px;
-padding-top: 18px;
-padding-bottom: 72px;
+    padding-top: 18px;
+    padding-bottom: 72px;
+    letter-spacing: 1px;
   }
 }
