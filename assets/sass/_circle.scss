@@ -44,63 +44,28 @@
 .play-btn {
   display: block;
   position: absolute;
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   cursor: pointer;
-  margin-left: -200px;
-  margin-top: -200px;
+  margin-left: -100px;
+  margin-top: -100px;
   top: 50%;
   left: 50%;
   z-index: 4;
+
+  @include gs-media (t, min-max) {
+      width: 300px;
+      height: 300px;
+      margin-left: -150px;
+      margin-top: -150px;
+  }
+
+    @include gs-media (d) {
+      width: 400px;
+      height: 400px;
+      margin-left: -200px;
+      margin-top: -200px;
+  }
+
 }
 
-// @include gs-media (m) {
-//     .circle {
-//       @include circle(30px);
-//       .first {
-//         font-size:22px; 
-//         line-height:4px; 
-//         padding:0;
-//       }
-//     .second {
-//       font-size:22px; 
-//       line-height:6px; 
-//       padding:0; 
-//       padding-top:2px;
-//       }
-//     }
-// }
-
-// @include gs-media (t, min-max) {
-//     .circle {
-//       @include circle(60px);
-//     .first {
-//         font-size:52px; 
-//         line-height:0px; 
-//         padding:0;
-//       }
-//     .second {
-//       font-size:52px; 
-//       line-height:12px; 
-//       padding:0; 
-//       padding-top:6px;
-//       }
-//     }
-// }
-
-// @include gs-media (d) {
-//     .circle {
-//       @include circle(100px);
-//     .first {
-//         font-size:96px; 
-//         line-height:0px; 
-//         padding:0;
-//       }
-//     .second {
-//       font-size:96px; 
-//       line-height:6px; 
-//       padding:0; 
-//       padding-top:12px;
-//       }
-//     }
-// }

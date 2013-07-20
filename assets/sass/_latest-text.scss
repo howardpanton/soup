@@ -43,12 +43,22 @@
     }
 
   p {
-     @include gs-span(d, 4, 9, (3, 10));
+     
     font-size: 24px;
     line-height:36px;
     text-align: center;
     clear:left;
-    padding-top: $base-line-height * 6;
-    padding-bottom: $base-line-height * 16;
+
+      @include gs-media (t, min-max) {
+        @include gs-span(t, 2, 7, (2, 7));
+        padding-top: $base-line-height * 16;
+        padding-bottom: $base-line-height * 16;
+        }
+
+      @include gs-media (d) {
+        padding-top: $base-line-height * 6;
+        padding-bottom: $base-line-height * 16;
+         @include gs-span(d, 4, 9, (3, 10));
+        }
   }
 }

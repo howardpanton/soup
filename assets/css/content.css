@@ -1,5 +1,5 @@
 @media only screen and (max-width: 767px) {
-  /* line 3, ../sass/_circle.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_circle\.scss}line{font-family:\000033}}
   .circle, .menu-active {
     border-radius: 50%;
     position: absolute;
@@ -11,9 +11,11 @@
     z-index: 9;
     -webkit-box-shadow: #ebebeb 0px 30px 32px 4px;
     -moz-box-shadow: #ebebeb 0px 30px 32px 4px;
-    box-shadow: #ebebeb 0px 30px 32px 4px; } }
+    box-shadow: #ebebeb 0px 30px 32px 4px;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-  /* line 3, ../sass/_circle.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_circle\.scss}line{font-family:\000033}}
   .circle, .menu-active {
     border-radius: 50%;
     position: absolute;
@@ -25,9 +27,11 @@
     z-index: 9;
     -webkit-box-shadow: #ebebeb 0px 30px 32px 4px;
     -moz-box-shadow: #ebebeb 0px 30px 32px 4px;
-    box-shadow: #ebebeb 0px 30px 32px 4px; } }
+    box-shadow: #ebebeb 0px 30px 32px 4px;
+  }
+}
 @media only screen and (min-width: 960px) {
-  /* line 3, ../sass/_circle.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_circle\.scss}line{font-family:\000033}}
   .circle, .menu-active {
     border-radius: 50%;
     position: absolute;
@@ -39,28 +43,50 @@
     z-index: 9;
     -webkit-box-shadow: #ebebeb 0px 30px 32px 4px;
     -moz-box-shadow: #ebebeb 0px 30px 32px 4px;
-    box-shadow: #ebebeb 0px 30px 32px 4px; } }
+    box-shadow: #ebebeb 0px 30px 32px 4px;
+  }
+}
 
-/* line 44, ../sass/_circle.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_circle\.scss}line{font-family:\0000344}}
 .play-btn {
   display: block;
   position: absolute;
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   cursor: pointer;
-  margin-left: -200px;
-  margin-top: -200px;
+  margin-left: -100px;
+  margin-top: -100px;
   top: 50%;
   left: 50%;
-  z-index: 4; }
+  z-index: 4;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_circle\.scss}line{font-family:\0000344}}
+  .play-btn {
+    width: 300px;
+    height: 300px;
+    margin-left: -150px;
+    margin-top: -150px;
+  }
+}
+@media only screen and (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_circle\.scss}line{font-family:\0000344}}
+  .play-btn {
+    width: 400px;
+    height: 400px;
+    margin-left: -200px;
+    margin-top: -200px;
+  }
+}
 
-/* line 5, ../sass/_video.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_video\.scss}line{font-family:\000035}}
 .video {
   position: relative;
   width: 100%;
-  overflow: visible; }
+  overflow: visible;
+}
 
-/* line 1, ../sass/_video-info.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_video-info\.scss}line{font-family:\000031}}
 .video-info {
   background: white;
   clear: both;
@@ -68,49 +94,58 @@
   float: left;
   margin-left: 0;
   width: 100%;
-  color: black; }
+  color: black;
+}
 
 @media only screen and (min-width: 960px) {
-  /* line 7, ../sass/_video-info.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_video-info\.scss}line{font-family:\000037}}
   .video-text, .latest-text, .holding-text {
     display: block;
     float: left;
     margin-left: 17.08333%;
     margin-right: -100%;
-    width: 65.83333%; } }
+    width: 65.83333%;
+  }
+}
 
 @media only screen and (min-width: 960px) {
-  /* line 14, ../sass/_video-info.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_video-info\.scss}line{font-family:\0000314}}
   .video-title {
     font-size: 24px;
     line-height: 36px;
     padding-top: 42px;
     padding-bottom: 18px;
     clear: left;
-    text-align: center; } }
+    text-align: center;
+  }
+}
 
 @media only screen and (min-width: 960px) {
-  /* line 27, ../sass/_video-info.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_video-info\.scss}line{font-family:\0000327}}
   .video-details {
     font-size: 18px;
     line-height: 30px;
     padding-top: 18px;
     padding-bottom: 18px;
     clear: left;
-    text-align: center; } }
+    text-align: center;
+  }
+}
 
 @media only screen and (min-width: 960px) {
-  /* line 38, ../sass/_video-info.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_video-info\.scss}line{font-family:\0000338}}
   .directors-profile {
     font-size: 24px;
     line-height: 36px;
     padding-top: 18px;
     padding-bottom: 36px;
     clear: left;
-    text-align: center; } }
+    text-align: center;
+  }
+}
 
 @media only screen and (min-width: 960px) {
-  /* line 48, ../sass/_video-info.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_video-info\.scss}line{font-family:\0000348}}
   .video-social {
     font-size: 5em;
     display: block;
@@ -119,28 +154,47 @@
     margin-right: -100%;
     width: 14.58333%;
     padding-top: 3em;
-    text-align: center; } }
+    text-align: center;
+  }
+}
 
 /* sexy */
 /* simple */
-/* line 5, ../sass/_flipper.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\000035}}
 .flip-container {
   -webkit-perspective: 1000;
   -moz-perspective: 1000;
-  perspective: 1000; }
+  perspective: 1000;
+}
 
-/* line 12, ../sass/_flipper.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\0000312}}
 .flip-container.flip .flipper {
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
-  transform: rotateY(180deg); }
+  transform: rotateY(180deg);
+}
 
-/* line 19, ../sass/_flipper.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\0000319}}
 .flip-container, .front, .back {
-  width: 400px;
-  height: 400px; }
+  width: 200px;
+  height: 200px;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\0000319}}
+  .flip-container, .front, .back {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media only screen and (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\0000319}}
+  .flip-container, .front, .back {
+    width: 400px;
+    height: 400px;
+  }
+}
 
-/* line 24, ../sass/_flipper.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\0000332}}
 .flipper {
   -webkit-transition: 0.6s;
   -webkit-transform-style: preserve-3d;
@@ -148,85 +202,135 @@
   -moz-transform-style: preserve-3d;
   transition: 0.6s;
   transform-style: preserve-3d;
-  position: relative; }
-  /* line 35, ../sass/_flipper.scss */
-  .flipper .close {
-    display: block;
-    background: black;
-    border-radius: 10px;
-    font-size: 3em;
-    position: absolute;
-    height: 60px;
-    top: 5%;
-    right: 15%;
-    padding: 12px; }
+  position: relative;
+}
 
-/* line 49, ../sass/_flipper.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\0000345}}
 .front, .back {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   backface-visibility: hidden;
   position: absolute;
   top: 0;
-  left: 0; }
+  left: 0;
+}
 
-/* line 58, ../sass/_flipper.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\0000354}}
 .front {
   background: white;
   z-index: 2;
   border-radius: 50%;
-  width: 400px;
-  height: 400px; }
-  /* line 63, ../sass/_flipper.scss */
+  width: 200px;
+  height: 200px;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\0000354}}
+  .front {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+  }
+}
+@media only screen and (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\0000354}}
+  .front {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\0000365}}
+.front .text {
+  font-size: 1em;
+  color: black;
+  position: absolute;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\0000365}}
   .front .text {
-    font-size: 1em;
-    color: black;
+    top: 16%;
+    left: 22%;
+  }
+}
+@media only screen and (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\0000365}}
+  .front .text {
     top: 20%;
     left: 30%;
-    position: absolute; }
-    /* line 69, ../sass/_flipper.scss */
-    .front .text p {
-      padding-bottom: 42px;
-      text-align: center; }
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\0000377}}
+.front .text p {
+  padding-bottom: 42px;
+  text-align: center;
+}
 
-/* line 76, ../sass/_flipper.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\0000384}}
 .back {
   background: black;
-  border-radius: 50%;
-  width: 400px;
-  height: 400px;
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
-  transform: rotateY(180deg); }
-  /* line 82, ../sass/_flipper.scss */
-  .back .text {
-    font-size: 1em;
-    color: white;
-    top: 33%;
-    left: 30%;
-    position: absolute; }
-    /* line 88, ../sass/_flipper.scss */
-    .back .text p {
-      padding-bottom: 42px;
-      text-align: center; }
+  transform: rotateY(180deg);
+}
+@media only screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\0000384}}
+  .back {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\0000384}}
+  .back {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+  }
+}
+@media only screen and (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\0000384}}
+  .back {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\00003100}}
+.back .text {
+  font-size: 1em;
+  color: white;
+  top: 33%;
+  left: 30%;
+  position: absolute;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\00003106}}
+.back .text p {
+  padding-bottom: 42px;
+  text-align: center;
+}
 
-/* line 96, ../sass/_flipper.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\00003114}}
 .credit {
-  font-style: italic; }
-  /* line 99, ../sass/_flipper.scss */
-  .credit span {
-    border-bottom: 1px dotted; }
+  font-style: italic;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\00003117}}
+.credit span {
+  border-bottom: 1px dotted;
+}
 
-/* line 104, ../sass/_flipper.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\00003122}}
 .client {
   font-weight: bold;
-  font-size: 18px; }
+  font-size: 18px;
+}
 
-/* line 112, ../sass/_flipper.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\00003130}}
 .play {
-  top: 120px; }
+  top: 120px;
+}
 
-/* line 116, ../sass/_flipper.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\00003134}}
 .play-button {
   font-size: 2em;
   width: 70px;
@@ -237,16 +341,19 @@
   line-height: 2.1;
   text-align: center;
   text-indent: 8px;
-  margin: 0 auto; }
-  /* line 127, ../sass/_flipper.scss */
-  .back .play-button {
-    color: white; }
-  /* line 131, ../sass/_flipper.scss */
-  .play-button:hover {
-    color: #ccc; }
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\00003145}}
+.back .play-button {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_flipper\.scss}line{font-family:\00003149}}
+.play-button:hover {
+  color: #ccc;
+}
 
 @media only screen and (min-width: 960px) {
-  /* line 2, ../sass/_twitter.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_twitter\.scss}line{font-family:\000032}}
   .latest-tweet .twitter, .latest-tweet .date, .latest-tweet .tweet {
     display: block;
     float: left;
@@ -254,9 +361,11 @@
     margin-right: -100%;
     width: 48.75%;
     clear: left;
-    text-align: center; } }
+    text-align: center;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-  /* line 2, ../sass/_twitter.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_twitter\.scss}line{font-family:\000032}}
   .latest-tweet .twitter, .latest-tweet .date, .latest-tweet .tweet {
     display: block;
     float: left;
@@ -264,110 +373,146 @@
     margin-right: -100%;
     width: 74.21875%;
     clear: left;
-    text-align: center; } }
-/* line 16, ../sass/_twitter.scss */
+    text-align: center;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_twitter\.scss}line{font-family:\0000316}}
 .latest-tweet .twitter {
   color: white;
   font-size: 6em;
   padding-top: 72px;
   padding-bottom: 24px;
-  line-height: 48px; }
-/* line 24, ../sass/_twitter.scss */
+  line-height: 48px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_twitter\.scss}line{font-family:\0000324}}
 .latest-tweet .date {
   font-size: 24px;
   line-height: 36px;
   padding-top: 24px;
-  padding-bottom: 18px; }
-/* line 32, ../sass/_twitter.scss */
+  padding-bottom: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_twitter\.scss}line{font-family:\0000332}}
 .latest-tweet .tweet {
   padding-top: 2em;
   font-size: 18px;
   line-height: 30px;
   padding-top: 18px;
-  padding-bottom: 72px; }
+  padding-bottom: 72px;
+}
 
-/* line 1, ../sass/_latest-text.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_latest-text\.scss}line{font-family:\000031}}
 .latest-text {
-  clear: left; }
-  @media only screen and (max-width: 767px) {
-    /* line 1, ../sass/_latest-text.scss */
-    .latest-text {
-      clear: both;
-      display: block;
-      float: left;
-      margin-left: 0;
-      width: 100%; } }
-  @media only screen and (min-width: 768px) and (max-width: 959px) {
-    /* line 1, ../sass/_latest-text.scss */
-    .latest-text {
-      display: block;
-      float: left;
-      margin-left: 12.89063%;
-      margin-right: -100%;
-      width: 74.21875%; } }
-  @media only screen and (min-width: 960px) {
-    /* line 1, ../sass/_latest-text.scss */
-    .latest-text {
-      display: block;
-      float: left;
-      margin-left: 17.08333%;
-      margin-right: -100%;
-      width: 65.83333%;
-      padding-top: 72px; } }
-  @media only screen and (max-width: 767px) {
-    /* line 16, ../sass/_latest-text.scss */
-    .latest-text h2 {
-      clear: both;
-      display: block;
-      float: left;
-      margin-left: 0;
-      width: 100%;
-      font-size: 36px;
-      line-height: 42px;
-      text-align: center;
-      padding-top: 96px;
-      padding-bottom: 36px; } }
-  @media only screen and (min-width: 768px) and (max-width: 959px) {
-    /* line 16, ../sass/_latest-text.scss */
-    .latest-text h2 {
-      display: block;
-      float: left;
-      margin-left: 12.89063%;
-      margin-right: -100%;
-      width: 74.21875%;
-      font-size: 60px;
-      line-height: 72px;
-      text-align: center;
-      padding-top: 96px;
-      padding-bottom: 36px; } }
-  @media only screen and (min-width: 960px) {
-    /* line 16, ../sass/_latest-text.scss */
-    .latest-text h2 {
-      clear: both;
-      display: block;
-      float: left;
-      margin-left: 0;
-      width: 100%;
-      font-size: 90px;
-      line-height: 90px;
-      text-align: center;
-      padding-top: 96px;
-      padding-bottom: 36px; } }
-  /* line 45, ../sass/_latest-text.scss */
+  clear: left;
+}
+@media only screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_latest-text\.scss}line{font-family:\000031}}
+  .latest-text {
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_latest-text\.scss}line{font-family:\000031}}
+  .latest-text {
+    display: block;
+    float: left;
+    margin-left: 12.89063%;
+    margin-right: -100%;
+    width: 74.21875%;
+  }
+}
+@media only screen and (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_latest-text\.scss}line{font-family:\000031}}
+  .latest-text {
+    display: block;
+    float: left;
+    margin-left: 17.08333%;
+    margin-right: -100%;
+    width: 65.83333%;
+    padding-top: 72px;
+  }
+}
+@media only screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_latest-text\.scss}line{font-family:\0000316}}
+  .latest-text h2 {
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    padding-top: 96px;
+    padding-bottom: 36px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_latest-text\.scss}line{font-family:\0000316}}
+  .latest-text h2 {
+    display: block;
+    float: left;
+    margin-left: 12.89063%;
+    margin-right: -100%;
+    width: 74.21875%;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+    padding-top: 96px;
+    padding-bottom: 36px;
+  }
+}
+@media only screen and (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_latest-text\.scss}line{font-family:\0000316}}
+  .latest-text h2 {
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    font-size: 90px;
+    line-height: 90px;
+    text-align: center;
+    padding-top: 96px;
+    padding-bottom: 36px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_latest-text\.scss}line{font-family:\0000345}}
+.latest-text p {
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  clear: left;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_latest-text\.scss}line{font-family:\0000345}}
   .latest-text p {
+    display: block;
+    float: left;
+    margin-left: 0%;
+    margin-right: -100%;
+    width: 100%;
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+}
+@media only screen and (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_latest-text\.scss}line{font-family:\0000345}}
+  .latest-text p {
+    padding-top: 36px;
+    padding-bottom: 96px;
     display: block;
     float: left;
     margin-left: 12.97468%;
     margin-right: -100%;
     width: 74.05063%;
-    font-size: 24px;
-    line-height: 36px;
-    text-align: center;
-    clear: left;
-    padding-top: 36px;
-    padding-bottom: 96px; }
+  }
+}
 
-/* line 3, ../sass/_people.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_people\.scss}line{font-family:\000033}}
 .people h2 {
   font-size: 42px;
   line-height: 56px;
@@ -375,33 +520,40 @@
   text-align: center;
   padding-top: 36px;
   padding-bottom: 36px;
-  letter-spacing: 4px; }
+  letter-spacing: 4px;
+}
 @media only screen and (max-width: 767px) {
-  /* line 1, ../sass/_people.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_people\.scss}line{font-family:\000031}}
   .people {
     clear: both;
     display: block;
     float: left;
     margin-left: 0;
-    width: 100%; } }
+    width: 100%;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-  /* line 1, ../sass/_people.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_people\.scss}line{font-family:\000031}}
   .people {
     clear: both;
     display: block;
     float: left;
     margin-left: 0;
-    width: 100%; } }
+    width: 100%;
+  }
+}
 @media only screen and (min-width: 960px) {
-  /* line 1, ../sass/_people.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_people\.scss}line{font-family:\000031}}
   .people {
     clear: both;
     display: block;
     float: left;
     margin-left: 0;
-    width: 100%; } }
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 767px) {
-  /* line 25, ../sass/_people.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_people\.scss}line{font-family:\0000325}}
   .people h3 {
     clear: both;
     display: block;
@@ -413,9 +565,11 @@
     text-align: center;
     font-weight: 300;
     padding-top: 18px;
-    padding-bottom: 18px; } }
+    padding-bottom: 18px;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-  /* line 25, ../sass/_people.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_people\.scss}line{font-family:\0000325}}
   .people h3 {
     display: block;
     float: left;
@@ -427,9 +581,11 @@
     text-align: center;
     font-weight: 300;
     padding-top: 18px;
-    padding-bottom: 18px; } }
+    padding-bottom: 18px;
+  }
+}
 @media only screen and (min-width: 960px) {
-  /* line 25, ../sass/_people.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_people\.scss}line{font-family:\0000325}}
   .people h3 {
     clear: both;
     display: block;
@@ -441,8 +597,10 @@
     text-align: center;
     font-weight: 300;
     padding-top: 18px;
-    padding-bottom: 18px; } }
-/* line 57, ../sass/_people.scss */
+    padding-bottom: 18px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_people\.scss}line{font-family:\0000357}}
 .people p {
   display: block;
   float: left;
@@ -454,278 +612,333 @@
   text-align: center;
   clear: left;
   padding-top: 36px;
-  padding-bottom: 96px; }
+  padding-bottom: 96px;
+}
 
-/* line 1, ../sass/_banner.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_banner\.scss}line{font-family:\000031}}
 .banner {
   color: white;
   height: 100%;
   background: black;
-  position: relative; }
-  /* line 5, ../sass/_banner.scss */
-  .page .banner {
-    background: black; }
-  @media only screen and (max-width: 767px) {
-    /* line 1, ../sass/_banner.scss */
-    .banner {
-      clear: both;
-      display: block;
-      float: left;
-      margin-left: 0;
-      width: 100%; } }
-  @media only screen and (min-width: 768px) and (max-width: 959px) {
-    /* line 1, ../sass/_banner.scss */
-    .banner {
-      clear: both;
-      display: block;
-      float: left;
-      margin-left: 0;
-      width: 100%; } }
-  @media only screen and (min-width: 960px) {
-    /* line 1, ../sass/_banner.scss */
-    .banner {
-      clear: both;
-      display: block;
-      float: left;
-      margin-left: 0;
-      width: 100%; }
-      /* line 20, ../sass/_banner.scss */
-      .banner.is-hidden {
-        display: none; } }
-  @media only screen and (max-width: 767px) {
-    /* line 24, ../sass/_banner.scss */
-    .banner h1 {
-      clear: both;
-      display: block;
-      float: left;
-      margin-left: 0;
-      width: 100%;
-      z-index: 9;
-      position: relative;
-      font-size: 36px;
-      line-height: 42px;
-      letter-spacing: 4px;
-      padding-top: 36px;
-      padding-bottom: 36px; } }
-  @media only screen and (min-width: 768px) and (max-width: 959px) {
-    /* line 24, ../sass/_banner.scss */
-    .banner h1 {
-      display: block;
-      float: left;
-      margin-left: 12.89063%;
-      margin-right: -100%;
-      width: 74.21875%;
-      z-index: 9;
-      position: relative;
-      font-size: 54px;
-      line-height: 60px;
-      letter-spacing: 4px;
-      padding-top: 108px;
-      padding-bottom: 108px; } }
-  @media only screen and (min-width: 960px) {
-    /* line 24, ../sass/_banner.scss */
-    .banner h1 {
-      display: block;
-      float: left;
-      margin-left: 17.08333%;
-      margin-right: -100%;
-      width: 65.83333%;
-      z-index: 9;
-      position: relative;
-      font-size: 54px;
-      line-height: 66px;
-      letter-spacing: 4px;
-      font-weight: 300;
-      padding-top: 132px;
-      padding-bottom: 132px; } }
-  @media only screen and (max-width: 767px) {
-    /* line 58, ../sass/_banner.scss */
-    .banner p.intro {
-      font-size: 24px;
-      line-height: 36px;
-      clear: both;
-      display: block;
-      float: left;
-      margin-left: 0;
-      width: 100%;
-      padding-top: 1.5em;
-      padding-bottom: 1.5em; } }
-  @media only screen and (min-width: 768px) and (max-width: 959px) {
-    /* line 58, ../sass/_banner.scss */
-    .banner p.intro {
-      z-index: 9;
-      position: relative;
-      font-size: 24px;
-      line-height: 36px;
-      display: block;
-      float: left;
-      margin-left: 12.89063%;
-      margin-right: -100%;
-      width: 74.21875%;
-      padding-top: 54px;
-      padding-bottom: 54px;
-      clear: left; } }
-  @media only screen and (min-width: 960px) {
-    /* line 58, ../sass/_banner.scss */
-    .banner p.intro {
-      z-index: 9;
-      position: relative;
-      font-size: 24px;
-      line-height: 36px;
-      display: block;
-      float: left;
-      margin-left: 17.08333%;
-      margin-right: -100%;
-      width: 65.83333%;
-      padding-top: 54px;
-      padding-bottom: 54px;
-      clear: left; } }
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_banner\.scss}line{font-family:\000035}}
+.page .banner {
+  background: black;
+}
+@media only screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_banner\.scss}line{font-family:\000031}}
+  .banner {
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_banner\.scss}line{font-family:\000031}}
+  .banner {
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_banner\.scss}line{font-family:\000031}}
+  .banner {
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_banner\.scss}line{font-family:\0000320}}
+  .banner.is-hidden {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_banner\.scss}line{font-family:\0000324}}
+  .banner h1 {
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    z-index: 9;
+    position: relative;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 4px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_banner\.scss}line{font-family:\0000324}}
+  .banner h1 {
+    display: block;
+    float: left;
+    margin-left: 12.89063%;
+    margin-right: -100%;
+    width: 74.21875%;
+    z-index: 9;
+    position: relative;
+    font-size: 54px;
+    line-height: 60px;
+    letter-spacing: 4px;
+    padding-top: 108px;
+    padding-bottom: 108px;
+  }
+}
+@media only screen and (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_banner\.scss}line{font-family:\0000324}}
+  .banner h1 {
+    display: block;
+    float: left;
+    margin-left: 17.08333%;
+    margin-right: -100%;
+    width: 65.83333%;
+    z-index: 9;
+    position: relative;
+    font-size: 54px;
+    line-height: 66px;
+    letter-spacing: 4px;
+    font-weight: 300;
+    padding-top: 132px;
+    padding-bottom: 132px;
+  }
+}
+@media only screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_banner\.scss}line{font-family:\0000358}}
+  .banner p.intro {
+    font-size: 24px;
+    line-height: 36px;
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_banner\.scss}line{font-family:\0000358}}
+  .banner p.intro {
+    z-index: 9;
+    position: relative;
+    font-size: 24px;
+    line-height: 36px;
+    display: block;
+    float: left;
+    margin-left: 12.89063%;
+    margin-right: -100%;
+    width: 74.21875%;
+    padding-top: 54px;
+    padding-bottom: 54px;
+    clear: left;
+  }
+}
+@media only screen and (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_banner\.scss}line{font-family:\0000358}}
+  .banner p.intro {
+    z-index: 9;
+    position: relative;
+    font-size: 24px;
+    line-height: 36px;
+    display: block;
+    float: left;
+    margin-left: 17.08333%;
+    margin-right: -100%;
+    width: 65.83333%;
+    padding-top: 54px;
+    padding-bottom: 54px;
+    clear: left;
+  }
+}
 
-/* line 90, ../sass/_banner.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_banner\.scss}line{font-family:\0000390}}
 .menu-collapsed {
-  position: relative; }
-  /* line 92, ../sass/_banner.scss */
-  .menu-collapsed h1 {
-    padding-top: 96px;
-    padding-bottom: 96px; }
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_banner\.scss}line{font-family:\0000392}}
+.menu-collapsed h1 {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
 
-/* line 99, ../sass/_banner.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_banner\.scss}line{font-family:\0000399}}
 .header {
   position: relative;
   background: url(../images/menu-back.png) no-repeat;
   display: block;
   float: left;
   height: 155px;
-  z-index: 9; }
+  z-index: 9;
+}
 
-/* line 5, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\000035}}
 .mobile-hidden {
-  display: none; }
+  display: none;
+}
 
-/* line 10, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\0000310}}
 .centered {
-  text-align: center; }
+  text-align: center;
+}
 
-/* line 13, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\0000313}}
 .alignright {
-  text-align: right; }
+  text-align: right;
+}
 
-/* line 16, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\0000316}}
 .alignleft {
-  text-align: left; }
+  text-align: left;
+}
 
-/* line 19, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\0000319}}
 .aligncenter {
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+}
 
-/* line 29, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\0000329}}
 .hide {
-  display: none !important; }
+  display: none !important;
+}
 
-/* line 32, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\0000332}}
 .show, .block {
-  display: block; }
+  display: block;
+}
 
-/* line 37, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\0000337}}
 .invisible {
-  visibility: hidden; }
+  visibility: hidden;
+}
 
-/* line 42, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\0000342}}
 .no-bullet {
   list-style: none;
-  padding: 0; }
+  padding: 0;
+}
 
-/* line 48, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\0000348}}
 .no-bullet li {
   list-style: none;
-  padding: 0; }
+  padding: 0;
+}
 
-/* line 54, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\0000354}}
 .display-inline {
-  display: inline-block; }
-  /* line 57, ../sass/_utilities.scss */
-  .display-inline li {
-    display: inline-block; }
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\0000357}}
+.display-inline li {
+  display: inline-block;
+}
 
-/* line 63, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\0000363}}
 .clear-left {
-  clear: left; }
+  clear: left;
+}
 
-/* line 65, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\0000365}}
 .clear-right {
-  clear: right; }
+  clear: right;
+}
 
-/* line 67, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\0000367}}
 .clear-all, .clear-both {
-  clear: both; }
+  clear: both;
+}
 
 /* ::State styles */
 /* ------------------------------------------------------------ */
-/* line 83, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\0000383}}
 .is-hidden {
-  display: none; }
+  display: none;
+}
 
-/* line 87, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\0000387}}
 .is-shown, .is-block {
-  display: block; }
+  display: block;
+}
 
-/* line 91, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\0000391}}
 .is-uppercase {
   text-transform: uppercase;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+}
 
-/* line 96, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\0000396}}
 .is-lowercase {
-  text-transform: lowercase; }
+  text-transform: lowercase;
+}
 
-/* line 100, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\00003100}}
 .ajust-margin-top {
-  margin-top: 0px; }
+  margin-top: 0px;
+}
 
 @media only screen and (max-width: 767px) {
-  /* line 106, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\00003106}}
   .is-removed-mobile {
     visibility: visible;
     height: 0px;
-    overflow: hidden; }
+    overflow: hidden;
+  }
 
-  /* line 112, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\00003112}}
   .is-hidden {
-    display: none; } }
-/* line 119, ../sass/_utilities.scss */
+    display: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\00003119}}
 .group:before,
 .group:after {
   content: "";
-  display: table; }
+  display: table;
+}
 
-/* line 123, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\00003123}}
 .group:after {
-  clear: both; }
+  clear: both;
+}
 
-/* line 126, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\00003126}}
 .group {
   zoom: 1;
-  /* For IE 6/7 (trigger hasLayout) */ }
+  /* For IE 6/7 (trigger hasLayout) */
+}
 
 /* ::Clearfixs and extends. Use which suits best */
 /* ----------------------------------------------------------- */
-/* line 135, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\00003135}}
 .cf {
-  zoom: 1; }
+  zoom: 1;
+}
 
-/* line 139, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\00003139}}
 .cf:before,
 .cf:after {
   content: "";
-  display: table; }
+  display: table;
+}
 
-/* line 143, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\00003143}}
 .cf:after {
-  clear: both; }
+  clear: both;
+}
 
 /* Media on panel */
 /* ------------------------------------------------------------ */
-/* line 154, ../sass/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/howard\/Dropbox\/htdocs\/soup-beta\/assets\/sass\/_utilities\.scss}line{font-family:\00003154}}
 .media-on-panel span {
-  margin: -5px 0px 12px 0px; }
+  margin: -5px 0px 12px 0px;
+}

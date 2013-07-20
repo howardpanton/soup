@@ -17,8 +17,16 @@
 
 
     .flip-container, .front, .back {
-      width: 400px;
-      height: 400px;
+      width: 200px;
+      height: 200px;
+      @include gs-media (t, min-max) {
+        width: 300px;
+        height: 300px;
+      }
+      @include gs-media (d) {
+        width: 400px;
+        height: 400px;
+      }
     }
 
     .flipper {
@@ -32,18 +40,6 @@
 
       position: relative;
 
-      .close {
-display: block;
-background: rgb(0, 0, 0);
-border-radius: 10px;
-font-size: 3em;
-position: absolute;
-height: 60px;
-top: 5%;
-right: 15%;
-padding: 12px;
-
-}
     }
 
     .front, .back {
@@ -58,13 +54,25 @@ padding: 12px;
     .front {
       background: white;
       z-index: 2;
-      @include circle(400px);
+      @include circle(200px);
+      @include gs-media (t, min-max) {
+        @include circle(300px);
+      }
+      @include gs-media (d) {
+        @include circle(400px);
+      }
 
       .text {
         font-size: 1em;
         color:black;
- top: 20%;
-left: 30%;
+        @include gs-media (t, min-max) {
+        top: 16%;
+        left: 22%;
+        }
+        @include gs-media (d) {
+        top: 20%;
+        left: 30%;
+        }
         position: absolute;
           p {
             padding-bottom:42px;
@@ -75,7 +83,17 @@ left: 30%;
 
     .back {
       background: black;
+    @include gs-media (m) {
+        @include circle(200px);
+    }
+
+     @include gs-media (t, min-max) {
+        @include circle(300px);
+    }
+
+    @include gs-media (d) {
             @include circle(400px);
+    }
       -webkit-transform: rotateY(180deg);
       -moz-transform: rotateY(180deg);
       transform: rotateY(180deg);
