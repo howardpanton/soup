@@ -111,7 +111,7 @@
   font-family: gill-sans-bold-display;
   font-size: 36px;
   line-height: 36px;
-  padding-top: 42px;
+  padding-top: 72px;
   padding-bottom: 18px;
   clear: left;
   text-align: center;
@@ -121,6 +121,7 @@
   font-family: gill-sans-light;
   font-size: 24px;
   line-height: 36px;
+  padding-bottom: 18px;
   clear: left;
   text-align: center;
 }
@@ -170,7 +171,7 @@
   line-height: 36px;
   letter-spacing: 1px;
   padding-top: 18px;
-  padding-bottom: 36px;
+  padding-bottom: 72px;
   clear: left;
   text-align: center;
   color: black;
@@ -323,11 +324,10 @@
 }
 /* line 75, ../sass/_flipper.scss */
 .front .text p {
-  padding-bottom: 42px;
   text-align: center;
 }
 
-/* line 91, ../sass/_flipper.scss */
+/* line 90, ../sass/_flipper.scss */
 .back {
   background: black;
   -webkit-transform: rotateY(180deg);
@@ -335,7 +335,7 @@
   transform: rotateY(180deg);
 }
 @media only screen and (max-width: 767px) {
-  /* line 91, ../sass/_flipper.scss */
+  /* line 90, ../sass/_flipper.scss */
   .back {
     border-radius: 50%;
     width: 296px;
@@ -343,7 +343,7 @@
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-  /* line 91, ../sass/_flipper.scss */
+  /* line 90, ../sass/_flipper.scss */
   .back {
     border-radius: 50%;
     width: 400px;
@@ -351,18 +351,19 @@
   }
 }
 @media only screen and (min-width: 960px) {
-  /* line 91, ../sass/_flipper.scss */
+  /* line 90, ../sass/_flipper.scss */
   .back {
     border-radius: 50%;
     width: 400px;
     height: 400px;
   }
 }
-/* line 108, ../sass/_flipper.scss */
+/* line 107, ../sass/_flipper.scss */
 .back .text {
   color: white;
   font-size: 1.125em;
   width: 100%;
+  padding-bottom: 36px;
   position: absolute;
 }
 /* line 113, ../sass/_flipper.scss */
@@ -373,38 +374,40 @@
 
 /* line 120, ../sass/_flipper.scss */
 .credit {
-  padding-top: 72px;
+  padding-top: 60px;
   font-family: gill-sans-light-italic;
   font-size: 18px;
   line-height: 30px;
   letter-spacing: 1px;
+  padding-bottom: 36px;
 }
-/* line 127, ../sass/_flipper.scss */
+/* line 128, ../sass/_flipper.scss */
 .credit span {
   border-bottom: 1px dotted;
 }
 
-/* line 132, ../sass/_flipper.scss */
+/* line 133, ../sass/_flipper.scss */
 .client {
   font-family: gill-sans-bold-display;
-  letter-spacing: 1px;
   font-size: 36px;
   line-height: 42px;
+  padding-bottom: 18px;
   text-transform: uppercase;
 }
 
-/* line 140, ../sass/_flipper.scss */
+/* line 142, ../sass/_flipper.scss */
 .title {
   font-size: 24px;
   line-height: 36px;
+  padding-bottom: 36px;
 }
 
-/* line 145, ../sass/_flipper.scss */
+/* line 148, ../sass/_flipper.scss */
 .play {
   top: 120px;
 }
 
-/* line 149, ../sass/_flipper.scss */
+/* line 152, ../sass/_flipper.scss */
 .play-button {
   font-size: 2em;
   width: 72px;
@@ -416,12 +419,13 @@
   text-align: center;
   text-indent: 8px;
   margin: 0 auto;
+  bottom: 0px;
 }
-/* line 161, ../sass/_flipper.scss */
+/* line 165, ../sass/_flipper.scss */
 .back .play-button {
   color: white;
 }
-/* line 165, ../sass/_flipper.scss */
+/* line 169, ../sass/_flipper.scss */
 .play-button:hover {
   background: #757575;
 }

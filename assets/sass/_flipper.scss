@@ -73,7 +73,6 @@
     }
 
     p {
-      padding-bottom:42px;
       text-align:center;
 
       @include gs-media (m) {
@@ -109,6 +108,7 @@
     color:white;
     font-size: 1.125em;
     width: 100%;
+    padding-bottom:36px;
     position: absolute;
     p {
       padding-bottom: 42px;
@@ -118,11 +118,12 @@
 }
 
 .credit {
-  padding-top: 72px;
+  padding-top: 60px;
   font-family: gill-sans-light-italic;
   font-size: 18px;
   line-height: 30px;
   letter-spacing: 1px;
+  padding-bottom:36px;
 
   span {
     border-bottom: 1px dotted;
@@ -131,15 +132,17 @@
 
 .client {
   font-family: gill-sans-bold-display;
-  letter-spacing: 1px;
+  // letter-spacing: 1px;
   font-size: 36px;
   line-height: 42px;
+  padding-bottom:18px;
   text-transform:uppercase;
 }
 
 .title {
   font-size: 24px;
   line-height: 36px;
+  padding-bottom:36px;
 }
 
 .play {
@@ -157,6 +160,7 @@
     text-align: center;
     text-indent: 8px;
     margin: 0 auto;
+    bottom: 0px;
   
     .back & {
       color: rgb(255, 255, 255);
