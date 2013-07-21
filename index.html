@@ -16,19 +16,20 @@ name: home
   	<h2 class="centered">RECENT ACTIVITY</h2>
     <div class="content-video">
       <img id ="image1" class="still" src="{{site.url}}assets/images/image1.jpg" />
-      <div class="video is-hidden" data-item="64141669">
+      <div class="video-item is-hidden" data-item="64141669">
         <div class="responsive-vid">          
         </div>
         <div class="video-info">
           <div class="video-text">            
-            <p class="video-title">BASEMENT JAXX</p>
+            <p class="video-client">BASEMENT JAXX</p>
+            <p class="video-title">Feelings Gone</p>
             <p class="video-details">Founder of Soup Factory, Mr. Andy Soup is known for making consistently original and outlandish music videos. Often noted for their elaborate art direction, Mr Soup’s videos are the undefeated and unchallenged rulers of the strange league.</p>
-            <p class="directors-profile">Director’s profile</p>
+            <a href class="directors-profile"><span>Director’s profile</span></a>
           </div>
           <div class="video-social">
-              <p class="close icon">&#10060;</p>
-              <p class="twitter icon-social">&#62217;</p>
-              <p class="facebook icon-social">&#62220;</p>
+              <p class="close icon" data-video="image1">&#10060;</p>
+              <p class="twitter icon-social"><a href="">&#62217;</a></p>
+              <p class="facebook icon-social"><a href="">&#62220;</a></p>
           </div>
         </div>
       </div>
@@ -46,11 +47,14 @@ name: home
               <div class="back">
   
                 <div class="text"> 
-                <p class="credit"><span>See project</span></p>                 
-                  <p class="credit">Directed by Deuce</p>
-                  <p class="client">Produced by Bigalow</p>
-                  <p class="title">2012</p>
-        
+                  <ul>
+                    <li class="project"><span>See project</span></li>
+                    <li class="title">Directed by</li>
+                    <li class="client">Deuce</li>
+                    <li class="title">Produced by </li>
+                    <li class="client">Bigalow</li>
+                    <li class="title">2012</li>
+                  </ul>        
                 </div>
               </div>
             </div>
@@ -58,12 +62,13 @@ name: home
       </div>
     </section>
     <section class="tweet row bg-black">
+ <div class="wrapper">
            <div class="latest-tweet">
     <p class="twitter icon-social">&#62217;</p>
   ￼ <p class="date">10 JUN</p>
     <p class="tweet">We’re now hosting all our material on Vimeo, if you have an account make sure to follow us to stay in the loop! vimeo.com/soupfactoryu
     </p>
-</div> 
+</div> </div>
     </section>
 
 	

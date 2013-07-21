@@ -28,11 +28,11 @@ $(this).prev('.menu-normal').slideDown('1500','linear');
 
 
 
-$("p.credit").click(function () {
+$(".credit").click(function () {
   $(this).parents('.flip-container').addClass('flip');
 });
 
-$("p.close").click(function () {
+$(".project").click(function () {
   $(this).parents('.flip-container').removeClass('flip');
 });
 
@@ -40,7 +40,7 @@ $(".play-button").click(function () {
   var test = $(this).attr("data-video");
   var thisDiv = $('.content-video').find("[id='" + test +"']");
   thisDiv.siblings('.play-btn').hide();
-  var Vimeo = thisDiv.next('.video');
+  var Vimeo = thisDiv.next('.video-item');
   var videoID = Vimeo.attr("data-item");
   var setHTML = "<iframe src=http://player.vimeo.com/video/" + videoID + "?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;autoplay=1\" width=\"1400\" height=\"787\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> ";
   Vimeo.removeClass('is-hidden');
@@ -48,3 +48,17 @@ $(".play-button").click(function () {
   thisDiv.hide();
   return false;
 });
+
+$(".close").click(function () {
+  var test = $(this).attr("data-video");
+  var thisDiv = $('.content-video').find("[id='" + test +"']");
+  var Vimeo = thisDiv.next('.video-item');
+  var videoID = Vimeo.attr("data-item");
+  //var setHTML = "<iframe src=http://player.vimeo.com/video/" + videoID + "?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;autoplay=1\" width=\"1400\" height=\"787\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> ";
+  Vimeo.children('.responsive-vid').children().remove();
+    Vimeo.addClass('is-hidden');
+  thisDiv.siblings('.play-btn').show();
+  thisDiv.show();
+  return false;
+});
+
