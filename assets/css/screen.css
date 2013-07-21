@@ -1,4 +1,4 @@
-/* line 17, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,44 +19,48 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
-/* line 22, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1; }
 
-/* line 24, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none; }
 
-/* line 26, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 28, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
-/* line 30, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none; }
-  /* line 103, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 103, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
-/* line 32, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none; }
 
-/* line 116, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
-/* line 105, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 61, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html {
+  font-size: 100%; }
+
+/* line 64, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
-  font-size: 100%;
+  font-size: 16px;
   line-height: 0.375em; }
 
 /* line 5, ../sass/_typography.scss */
@@ -301,7 +305,7 @@ img {
 
 /* line 46, ../sass/_layout.scss */
 .addresses {
-  padding-top: 56px;
+  padding-top: 36px;
   padding-bottom: 24px; }
   @media only screen and (max-width: 767px) {
     /* line 46, ../sass/_layout.scss */
@@ -327,12 +331,12 @@ img {
       margin-left: 17.08333%;
       margin-right: -100%;
       width: 65.83333%; } }
-  /* line 61, ../sass/_layout.scss */
+  /* line 62, ../sass/_layout.scss */
   .addresses span {
-    line-height: 1em;
-    padding-bottom: 1em;
+    font-size: 24px;
+    line-height: 36px;
     display: block; }
-  /* line 67, ../sass/_layout.scss */
+  /* line 68, ../sass/_layout.scss */
   .addresses .vcard {
     text-transform: uppercase;
     text-align: center; }
@@ -514,10 +518,10 @@ img {
 .st-accordion {
   width: 100%;
   clear: left; }
-  /* line 6, ../sass/_accordion-section.scss */
+  /* line 5, ../sass/_accordion-section.scss */
   .st-accordion a {
     letter-spacing: 4px; }
-  /* line 10, ../sass/_accordion-section.scss */
+  /* line 9, ../sass/_accordion-section.scss */
   .st-accordion .st-content {
     width: 100%;
     clear: left;
@@ -527,47 +531,51 @@ img {
     text-align: center;
     padding-bottom: 24px;
     padding-top: 24px;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 36px;
+    line-height: 42px;
     border-bottom: 1px solid #404040; }
     @media only screen and (min-width: 768px) and (max-width: 959px) {
       /* line 15, ../sass/_accordion-section.scss */
       .st-accordion ul > li {
-        font-size: 42px;
-        line-height: 50px; } }
+        font-size: 36px;
+        line-height: 42px; } }
     @media only screen and (min-width: 960px) {
       /* line 15, ../sass/_accordion-section.scss */
       .st-accordion ul > li {
-        font-size: 54px;
-        line-height: 60px; } }
+        font-size: 36px;
+        line-height: 42px; } }
+  /* line 36, ../sass/_accordion-section.scss */
+  .st-accordion p {
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 36px;
+    padding-bottom: 36px; }
+    @media only screen and (max-width: 767px) {
+      /* line 36, ../sass/_accordion-section.scss */
+      .st-accordion p {
+        clear: both;
+        display: block;
+        float: left;
+        margin-left: 0;
+        width: 100%; } }
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+      /* line 36, ../sass/_accordion-section.scss */
+      .st-accordion p {
+        display: block;
+        float: left;
+        margin-left: 12.89063%;
+        margin-right: -100%;
+        width: 74.21875%; } }
+    @media only screen and (min-width: 960px) {
+      /* line 36, ../sass/_accordion-section.scss */
+      .st-accordion p {
+        display: block;
+        float: left;
+        margin-left: 12.97468%;
+        margin-right: -100%;
+        width: 74.05063%; } }
   @media only screen and (max-width: 767px) {
-    /* line 33, ../sass/_accordion-section.scss */
-    .st-accordion p {
-      clear: both;
-      display: block;
-      float: left;
-      margin-left: 0;
-      width: 100%; } }
-  @media only screen and (min-width: 768px) and (max-width: 959px) {
-    /* line 33, ../sass/_accordion-section.scss */
-    .st-accordion p {
-      display: block;
-      float: left;
-      margin-left: 12.89063%;
-      margin-right: -100%;
-      width: 74.21875%; } }
-  @media only screen and (min-width: 960px) {
-    /* line 33, ../sass/_accordion-section.scss */
-    .st-accordion p {
-      display: block;
-      float: left;
-      margin-left: 12.97468%;
-      margin-right: -100%;
-      width: 74.05063%;
-      font-size: 18px;
-      line-height: 30px; } }
-  @media only screen and (max-width: 767px) {
-    /* line 51, ../sass/_accordion-section.scss */
+    /* line 55, ../sass/_accordion-section.scss */
     .st-accordion ul li ul {
       clear: both;
       display: block;
@@ -575,7 +583,7 @@ img {
       margin-left: 0;
       width: 100%; } }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
-    /* line 51, ../sass/_accordion-section.scss */
+    /* line 55, ../sass/_accordion-section.scss */
     .st-accordion ul li ul {
       display: block;
       float: left;
@@ -583,7 +591,7 @@ img {
       margin-right: -100%;
       width: 74.21875%; } }
   @media only screen and (min-width: 960px) {
-    /* line 51, ../sass/_accordion-section.scss */
+    /* line 55, ../sass/_accordion-section.scss */
     .st-accordion ul li ul {
       clear: both;
       display: block;
@@ -591,7 +599,7 @@ img {
       margin-left: 0;
       width: 100%; } }
   @media only screen and (max-width: 767px) {
-    /* line 64, ../sass/_accordion-section.scss */
+    /* line 70, ../sass/_accordion-section.scss */
     .st-accordion ul li ul li {
       width: 100%;
       float: left;
@@ -599,24 +607,24 @@ img {
       margin-right: 0;
       display: inline;
       border-bottom: none; }
-      /* line 72, ../sass/_accordion-section.scss */
+      /* line 78, ../sass/_accordion-section.scss */
       .st-accordion ul li ul li:nth-of-type(3) {
         margin-bottom: 24px; }
-      /* line 75, ../sass/_accordion-section.scss */
+      /* line 82, ../sass/_accordion-section.scss */
       .st-accordion ul li ul li img {
         border-radius: 190px; } }
   @media only screen and (min-width: 960px) {
-    /* line 64, ../sass/_accordion-section.scss */
+    /* line 70, ../sass/_accordion-section.scss */
     .st-accordion ul li ul li {
       width: 25.3%;
       float: left;
       margin-left: 0;
       margin-right: 12%;
       border-bottom: none; }
-      /* line 85, ../sass/_accordion-section.scss */
+      /* line 93, ../sass/_accordion-section.scss */
       .st-accordion ul li ul li:nth-of-type(3) {
         margin-right: 0; }
-      /* line 88, ../sass/_accordion-section.scss */
+      /* line 97, ../sass/_accordion-section.scss */
       .st-accordion ul li ul li img {
         border-radius: 190px; } }
 
@@ -1267,10 +1275,9 @@ img {
 .people h2 {
   font-size: 42px;
   line-height: 56px;
-  font-weight: 600;
   text-align: center;
-  padding-top: 36px;
-  padding-bottom: 36px;
+  padding-top: 72px;
+  padding-bottom: 60px;
   letter-spacing: 4px; }
 @media only screen and (max-width: 767px) {
   /* line 1, ../sass/_people.scss */
@@ -1297,48 +1304,45 @@ img {
     margin-left: 0;
     width: 100%; } }
 @media only screen and (max-width: 767px) {
-  /* line 25, ../sass/_people.scss */
+  /* line 24, ../sass/_people.scss */
   .people h3 {
     clear: both;
     display: block;
     float: left;
     margin-left: 0;
     width: 100%;
-    font-size: 32px;
+    font-size: 36px;
     line-height: 42px;
     text-align: center;
-    font-weight: 300;
     padding-top: 18px;
     padding-bottom: 18px; } }
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-  /* line 25, ../sass/_people.scss */
+  /* line 24, ../sass/_people.scss */
   .people h3 {
     display: block;
     float: left;
     margin-left: 12.89063%;
     margin-right: -100%;
     width: 74.21875%;
-    font-size: 32px;
+    font-size: 36px;
     line-height: 42px;
     text-align: center;
-    font-weight: 300;
     padding-top: 18px;
     padding-bottom: 18px; } }
 @media only screen and (min-width: 960px) {
-  /* line 25, ../sass/_people.scss */
+  /* line 24, ../sass/_people.scss */
   .people h3 {
     clear: both;
     display: block;
     float: left;
     margin-left: 0;
     width: 100%;
-    font-size: 32px;
+    font-size: 36px;
     line-height: 42px;
     text-align: center;
-    font-weight: 300;
     padding-top: 18px;
     padding-bottom: 18px; } }
-/* line 57, ../sass/_people.scss */
+/* line 53, ../sass/_people.scss */
 .people p {
   display: block;
   float: left;
@@ -1351,35 +1355,35 @@ img {
   clear: left;
   padding-top: 36px;
   padding-bottom: 96px; }
-/* line 67, ../sass/_people.scss */
+/* line 63, ../sass/_people.scss */
 .people .staff-list {
   display: block;
   padding-bottom: 36px;
   overflow: hidden; }
-/* line 73, ../sass/_people.scss */
+/* line 69, ../sass/_people.scss */
 .people p.staff {
   text-align: center;
   padding: 0;
   padding-bottom: 24px;
   line-height: 26px; }
-  /* line 79, ../sass/_people.scss */
+  /* line 75, ../sass/_people.scss */
   .people p.staff span {
     display: block;
     padding-bottom: 12px; }
-/* line 85, ../sass/_people.scss */
+/* line 81, ../sass/_people.scss */
 .people .name {
   font-family: gill-sans-bold-display;
   text-transform: uppercase;
   font-size: 24px;
   line-height: 36px;
   letter-spacing: 1px; }
-/* line 97, ../sass/_people.scss */
+/* line 93, ../sass/_people.scss */
 .people .email {
   font-size: 18px; }
-  /* line 100, ../sass/_people.scss */
+  /* line 96, ../sass/_people.scss */
   .people .email span {
     border-bottom: 1px dotted; }
-/* line 105, ../sass/_people.scss */
+/* line 101, ../sass/_people.scss */
 .people .telephone {
   font-size: 18px; }
 
