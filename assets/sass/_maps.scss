@@ -1,0 +1,20 @@
+/* Flexible iFrame */
+
+.flexible-container {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    width:100%;
+    clear:left;
+    height:296px;
+}
+
+.flexible-container iframe,   
+.flexible-container object,  
+.flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

@@ -63,4 +63,22 @@
     padding-top: $base-line-height * 6;
     padding-bottom: $base-line-height * 16;
   }
+
+  .staff-list {
+display: block;
+padding-bottom: 36px;
+overflow: hidden;
+}
+
+  p.staff {
+    text-align: center;
+    padding: 0;
+    padding-bottom: 24px;
+    line-height: 26px;
+
+    span {
+        display:block;
+        padding-bottom:12px;
+    }
+      }
 }

@@ -42,6 +42,35 @@
     }
   }
 
+   h3 {
+
+    font-family: "Gill-Sans-Bold", "Gill Sans MT", sans-serif;
+    @include gs-media (m) {
+      @include gs-span(m,all);
+     font-size: emCalc(24px);
+      @include adjust-leading-to(4, 24px); 
+      padding: rhythm(4, 24px) 0 rhythm(3, 24px) 0;  
+      text-align: center;
+    }
+    @include gs-media (t, min-max) {
+      @include gs-span(t,2, 7);
+     font-size: emCalc(24px);
+      @include adjust-leading-to(4, 24px); 
+      padding: rhythm(4, 24px) 0 rhythm(3, 24px) 0;  
+      text-align: center;
+    }
+
+    @include gs-media (d) {
+      @include gs-span(d, all);
+      font-size: emCalc(36px);
+      @include adjust-leading-to(4, 36px); 
+      padding: rhythm(4, 36px) 0 rhythm(3, 36px) 0;  
+      text-align: center;
+ 
+    }
+  }
+
+
   p {
     text-align: center;
     clear:left;

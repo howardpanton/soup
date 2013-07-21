@@ -1,35 +1,31 @@
 .controls {
      @include gs-media (d) {
-     @include gs-span(d,3, 10);
+     @include gs-span(d,2, 11);
      padding-bottom:60px;
     }
 
     ul {
-    	@include gs-media (d) {
-     	@include gs-span(d, 3, 10, (3, 10));
-    	}
+			display: table;
+			float: left;
+			width: 100%;
+			margin: 0 auto;
 
 		li {
-			float: left;
 			line-height: 42px;
 			padding: 1em 0 0.75em 0;
 			font-size: 24px;
 			font-family: gill-sans-bold-display;
 			text-align: center;
-			margin-right: 5px;
+			display:table-cell;
 
 			@include gs-media (m) {
-		     	clear: left;
+		    clear: left;
 				width: 100%;
+				display:block;
+				border-bottom:1px solid black;
 			}
-
 			@include gs-media (t, min-max) {
-				display: inline;
-	     	}
-
-
-			@include gs-media (d) {
-		     	display: inline;
+			font-size: 16px;
 			}
 
 			&.filter:hover {

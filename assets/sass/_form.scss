@@ -1,0 +1,31 @@
+form.contact {
+	 padding-top: 72px;
+
+  clear:left;
+  @include gs-media (m) {
+    @include gs-span(m,all);
+      padding-bottom: 12px;
+  }
+
+  @include gs-media (t, min-max) {
+    @include gs-span(t,2, 7);
+      padding-bottom: 12px;
+  }
+
+  @include gs-media (d) {
+    @include gs-span(d,4, 9);
+      padding-bottom: 12px;
+  }
+
+  input, textarea {
+      font-family: "Gill-Sans-Light", "Gill Sans MT", sans-serif;
+      width: 100%;
+      border: none;
+      background: #f1f1f1;
+      color: #888888;
+      font-size: 1em;
+      padding: 1em;
+      margin-bottom:50px;
+      line-height:52px;
+    }
+}
