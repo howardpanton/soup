@@ -1366,16 +1366,17 @@ img {
 /* line 85, ../sass/_people.scss */
 .people .name {
   font-family: gill-sans-bold-display;
+  text-transform: uppercase;
   font-size: 24px;
   line-height: 36px;
   letter-spacing: 1px; }
-/* line 96, ../sass/_people.scss */
+/* line 97, ../sass/_people.scss */
 .people .email {
   font-size: 18px; }
-  /* line 99, ../sass/_people.scss */
+  /* line 100, ../sass/_people.scss */
   .people .email span {
     border-bottom: 1px dotted; }
-/* line 104, ../sass/_people.scss */
+/* line 105, ../sass/_people.scss */
 .people .telephone {
   font-size: 18px; }
 
