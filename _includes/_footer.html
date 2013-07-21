@@ -26,22 +26,24 @@
     <script src="{{ site.url }}assets/js/script.js"></script>
     <script src="{{ site.url }}assets/js/gridset-overlay.js"></script>
     <script type="text/javascript" src="{{ site.url }}assets/js/midway.min.js"></script>
+    <script type="text/javascript" src="{{ site.url }}assets/js/jquery.accordion.js"></script>
+    <script  type="text/javascript" >
+              $(function() {
+      
+            $('#st-accordion').accordion();
+        
+          });
+  </script>
 
 {% if page.name == "directors" %}
 
-    <script type="text/javascript" src="{{ site.url }}assets/js/jquery.accordion.js"></script>
     <script type="text/javascript" src="{{ site.url }}assets/js/jquery.mixitup.min.js"></script>
     <script type="text/javascript">
           $(function(){
             
             $('#Grid').mixitup();
           });
-      
-          $(function() {
-      
-            $('#st-accordion').accordion();
-        
-          });
+    
   </script>
 
 {% endif %}

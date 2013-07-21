@@ -98,7 +98,7 @@
 				var $item		= $(this);
 				
 				$item.data({
-					originalHeight 	: $item.find('a:first').height(),
+					originalHeight 	: $item.find('li:first').height() + 108,
 					offsetTop		: $item.offset().top
 				});
 				
