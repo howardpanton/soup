@@ -103,101 +103,102 @@ body {
   font-size: 1em;
   font-weight: 300;
   color: black;
-  min-width: 320px; }
+  min-width: 320px;
+  letter-spacing: 1px; }
   @media screen and (min-width: 75em) {
     /* line 25, ../sass/_typography.scss */
     body {
       font-size: 1.125em; } }
 
-/* line 36, ../sass/_typography.scss */
+/* line 37, ../sass/_typography.scss */
 a {
   color: white;
   text-decoration: none; }
 
-/* line 42, ../sass/_typography.scss */
+/* line 43, ../sass/_typography.scss */
 h1 {
   font-size: 2.25em;
   line-height: 1.16667em; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
-    /* line 42, ../sass/_typography.scss */
+    /* line 43, ../sass/_typography.scss */
     h1 {
       font-size: 3.375em;
       line-height: 1.11111em; } }
   @media only screen and (min-width: 960px) {
-    /* line 42, ../sass/_typography.scss */
+    /* line 43, ../sass/_typography.scss */
     h1 {
       font-size: 3.375em;
       line-height: 1.11111em; } }
 
-/* line 60, ../sass/_typography.scss */
+/* line 61, ../sass/_typography.scss */
 h2 {
   font-size: 1.5em;
   line-height: 1em;
   padding: 3em 0 0.75em 0;
   letter-spacing: 4px; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
-    /* line 60, ../sass/_typography.scss */
+    /* line 61, ../sass/_typography.scss */
     h2 {
       font-size: 2.25em;
       line-height: 1.16667em;
       padding: 2em 0 0.5em 0;
       letter-spacing: 4px; } }
   @media only screen and (min-width: 960px) {
-    /* line 60, ../sass/_typography.scss */
+    /* line 61, ../sass/_typography.scss */
     h2 {
       font-size: 2.25em;
       line-height: 1.16667em;
       padding: 2em 0 0.5em 0;
       letter-spacing: 4px; } }
 
-/* line 80, ../sass/_typography.scss */
+/* line 81, ../sass/_typography.scss */
 h3 {
   font-size: 1.5em;
   line-height: 1em;
   padding: 1em 0 0.75em 0; }
 
-/* line 86, ../sass/_typography.scss */
+/* line 87, ../sass/_typography.scss */
 h4 {
   font-size: 1.125em;
   line-height: 1em;
   padding: 1.33333em 0 1em 0; }
   @media screen and (min-width: 75em) {
-    /* line 86, ../sass/_typography.scss */
+    /* line 87, ../sass/_typography.scss */
     h4 {
       font-size: 1.5em;
       line-height: 1em;
       padding: 1em 0 0.75em 0; } }
 
-/* line 98, ../sass/_typography.scss */
+/* line 99, ../sass/_typography.scss */
 h5, h6 {
   font-size: 1em;
   line-height: 1.125em;
   padding: 1.5em 0 1.125em 0; }
   @media screen and (min-width: 75em) {
-    /* line 98, ../sass/_typography.scss */
+    /* line 99, ../sass/_typography.scss */
     h5, h6 {
       font-size: 1.125em;
       line-height: 1em;
       padding: 1.33333em 0 1em 0; } }
 
-/* line 110, ../sass/_typography.scss */
+/* line 111, ../sass/_typography.scss */
 p {
   font-size: 1rem;
   line-height: 24px; }
 
-/* line 115, ../sass/_typography.scss */
+/* line 116, ../sass/_typography.scss */
 .title {
   font-weight: 500; }
 
-/* line 120, ../sass/_typography.scss */
+/* line 121, ../sass/_typography.scss */
 aside img {
   width: 100%; }
 
-/* line 125, ../sass/_typography.scss */
+/* line 126, ../sass/_typography.scss */
 .icon {
   font-family: "entypo"; }
 
-/* line 129, ../sass/_typography.scss */
+/* line 130, ../sass/_typography.scss */
 .icon-social {
   font-family: "entypo-social"; }
 
@@ -1368,6 +1369,15 @@ img {
   font-size: 24px;
   line-height: 36px;
   letter-spacing: 1px; }
+/* line 96, ../sass/_people.scss */
+.people .email {
+  font-size: 18px; }
+  /* line 99, ../sass/_people.scss */
+  .people .email span {
+    border-bottom: 1px dotted; }
+/* line 104, ../sass/_people.scss */
+.people .telephone {
+  font-size: 18px; }
 
 /* line 1, ../sass/_banner.scss */
 .banner {

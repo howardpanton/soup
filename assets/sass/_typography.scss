@@ -28,6 +28,7 @@ body {
   font-weight:300;
   color:black;
   min-width:320px;
+  letter-spacing: 1px;
   @media screen and (min-width: 75em) {
     font-size: emCalc(18px) ; // 18  
   }

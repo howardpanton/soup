@@ -90,7 +90,18 @@
   }
   
   .job-description {
-    
+
+  }
+  
+  .email {
+    font-size: 18px;
+   
+    span {
+      border-bottom: 1px dotted;
+    }
   }
 
+  .telephone {
+    font-size: 18px;
+  }
 }
