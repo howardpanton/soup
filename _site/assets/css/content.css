@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media only screen and (max-width: 767px) {
   /* line 3, ../sass/_circle.scss */
   .circle, .menu-active {
@@ -1046,3 +1047,10 @@
 .media-on-panel span {
   margin: -5px 0px 12px 0px;
 }
+=======
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+>>>>>>> 2cb4b92dd9af33b41d4ed26ad66791ca17f5da0d

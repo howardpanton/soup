@@ -91,9 +91,19 @@
     }
 
     .video-social {
-        font-size: 5em;
-        @include gs-span(d,11, 12);
-        @include padding-leader(8);
+
+        @include gs-media (d) {
+            @include gs-span(d, 11, 12);
+        }
+        padding-top:42px;
         text-align:center;
     }
+}
+
+.close.icon, .twitter.icon-social, .facebook.icon-social {
+font-size:6rem;
+line-height:1;
+a {
+    color:black;
+}
 }

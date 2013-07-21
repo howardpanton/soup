@@ -28,11 +28,11 @@ $(this).prev('.menu-normal').slideDown('1500','linear');
 
 
 
-$("p.credit").click(function () {
+$(".credit").click(function () {
   $(this).parents('.flip-container').addClass('flip');
 });
 
-$("p.close").click(function () {
+$(".project").click(function () {
   $(this).parents('.flip-container').removeClass('flip');
 });
 

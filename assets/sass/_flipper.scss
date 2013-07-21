@@ -114,6 +114,11 @@
       padding-bottom: 42px;
       text-align: center;
     }
+
+    li {
+      padding-bottom: 1em;
+      text-align: center;
+    }
   }
 }
 
@@ -128,7 +133,19 @@
   span {
     border-bottom: 1px dotted;
   }
-}    
+}   
+
+.project {
+  padding-top: 42px;
+  font-family: gill-sans-light-italic;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 1px;
+
+  span {
+    border-bottom: 1px dotted;
+  }
+}   
 
 .client {
   font-family: gill-sans-bold-display;
