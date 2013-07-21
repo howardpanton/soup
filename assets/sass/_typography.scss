@@ -24,14 +24,12 @@ html {
 
 body {
   font-family: "Gill-Sans-Light", "Gill Sans MT", sans-serif;
-  font-size: emCalc(16px);
+  font-size: emCalc(18px);
   font-weight:300;
   color:black;
   min-width:320px;
   letter-spacing: 1px;
-  @media screen and (min-width: 75em) {
-    font-size: emCalc(18px) ; // 18  
-  }
+  line-height:30px;
 }
 
 a {
@@ -108,10 +106,6 @@ h5, h6 {
   }
 }
 
-p {
-  font-size:1rem;
-  line-height:24px;
-}
 
 .title {
   font-weight: 500;
