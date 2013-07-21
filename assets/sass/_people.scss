@@ -1,61 +1,61 @@
 .people {
 
   h2 {
-        font-size: 42px;
-        line-height:56px;
-        font-weight:600;
-        text-align: center;
-        padding-top: $base-line-height * 6;
-        padding-bottom: $base-line-height * 6;
-        letter-spacing:4px;
+    font-size: 42px;
+    line-height:56px;
+    font-weight:600;
+    text-align: center;
+    padding-top: $base-line-height * 6;
+    padding-bottom: $base-line-height * 6;
+    letter-spacing:4px;
   }
 
-        @include gs-media (m) {
-        @include gs-span(m,all);
-        }
-      @include gs-media (t, min-max) {
-        @include gs-span(t,all);
-        }
+  @include gs-media (m) {
+    @include gs-span(m,all);
+  }
 
-      @include gs-media (d) {
-        @include gs-span(d,all);
+  @include gs-media (t, min-max) {
+    @include gs-span(t,all);
+  }
 
-        }
+  @include gs-media (d) {
+    @include gs-span(d,all);
+  }
 
-   h3 {
-
-      @include gs-media (m) {
-        @include gs-span(m,all);
-        font-size: 32px;
-        line-height:42px;
-        text-align: center;
-        font-weight: 300;
-        padding-top: $base-line-height * 3;
-        padding-bottom: $base-line-height * 3;
-        }
-      @include gs-media (t, min-max) {
-        @include gs-span(t,2, 7);
-        font-size: 32px;
-        line-height:42px;
-        text-align: center;
-        font-weight: 300;
-        padding-top: $base-line-height * 3;
-        padding-bottom: $base-line-height * 3;
-        }
-
-      @include gs-media (d) {
-        @include gs-span(d, all);
-        font-size: 32px;
-        line-height:42px;
-        text-align: center;
-        font-weight: 300;
-        padding-top: $base-line-height * 3;
-        padding-bottom: $base-line-height * 3;
-        }
+  h3 {
+    @include gs-media (m) {
+      @include gs-span(m,all);
+      font-size: 32px;
+      line-height:42px;
+      text-align: center;
+      font-weight: 300;
+      padding-top: $base-line-height * 3;
+      padding-bottom: $base-line-height * 3;
     }
 
+    @include gs-media (t, min-max) {
+      @include gs-span(t,2, 7);
+      font-size: 32px;
+      line-height:42px;
+      text-align: center;
+      font-weight: 300;
+      padding-top: $base-line-height * 3;
+      padding-bottom: $base-line-height * 3;
+    }
+
+    @include gs-media (d) {
+      @include gs-span(d, all);
+      font-size: 32px;
+      line-height:42px;
+      text-align: center;
+      font-weight: 300;
+      padding-top: $base-line-height * 3;
+      padding-bottom: $base-line-height * 3;
+    }
+  }
+
   p {
-     @include gs-span(d, 4, 9, (3, 10));
+    @include gs-span(d, 4, 9, (3, 10));
     font-size: 24px;
     line-height:36px;
     text-align: center;
@@ -65,10 +65,10 @@
   }
 
   .staff-list {
-display: block;
-padding-bottom: 36px;
-overflow: hidden;
-}
+    display: block;
+    padding-bottom: 36px;
+    overflow: hidden;
+  }
 
   p.staff {
     text-align: center;
@@ -77,8 +77,20 @@ overflow: hidden;
     line-height: 26px;
 
     span {
-        display:block;
-        padding-bottom:12px;
+      display:block;
+      padding-bottom:12px;
     }
-      }
+  }
+
+  .name {
+    font-family: gill-sans-bold-display;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 1px;
+  }
+  
+  .job-description {
+    
+  }
+
 }
